@@ -127,10 +127,10 @@ class Transition(nn.Module):
         return out
 
 class DenseNet(nn.Module):
-    def __init__(self, num_blocks, growth_rate=12, reduction=0.5, num_classes=10, use_bottleneck=True, use_transition=True):
+    def __init__(self, num_blocks, growth_rate=12, compression_rate=0.5, num_classes=10, use_bottleneck=True, use_transition=True):
         super(DenseNet, self).__init__()
         self.growth_rate = growth_rate
-        self.reduction = reduction
+        self.compression_rate = compression_rate
         self.use_bottleneck = use_bottleneck
         self.use_transition = use_transition
 
@@ -160,7 +160,7 @@ class DenseNet(nn.Module):
             in_channels += self.growth_rate
         out_channels = in_channels
         if self.use_transition and transition:
-            out_channels = int(math.floor(in_channels * self.reduction))
+            out_channels = int(math.floor(in_channels * self.compression_rate))
             layers += [Transition(in_channels, out_channels)]
         return nn.Sequential(*layers), out_channels
 
@@ -183,17 +183,18 @@ class DenseNet(nn.Module):
         return out
 
 # Model creation function
-def create_densenet(num_blocks, growth_rate, reduction, num_classes, use_bottleneck, use_transition):
-    return DenseNet(num_blocks, growth_rate, reduction, num_classes, use_bottleneck, use_transition)
+def create_densenet(num_blocks, growth_rate, compression_rate, num_classes, use_bottleneck, use_transition):
+    return DenseNet(num_blocks, growth_rate, compression_rate, num_classes, use_bottleneck, use_transition)
 
 # Calculate and print the model summary
 def print_model_summary(model, input_size):
     summary(model, input_size)
 
 # Training and evaluation with cost analysis
-def tenepoch(model_save, train_root, test_root, augment, lr, batch_size, num_blocks, use_bottleneck, use_transition):
+def tenepoch(model_save, train_root, test_root, augment, lr, batch_size, num_blocks, use_bottleneck, use_transition, compression_rate):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    net = create_densenet(num_blocks, growth_rate=12, reduction=0.5, num_classes=2, use_bottleneck=use_bottleneck, use_transition=use_transition).to(device)
+    net = create_densenet(num_blocks, growth_rate=12, compression_rate=compression_rate, num_classes=2, 
+                          use_bottleneck=use_bottleneck, use_transition=use_transition).to(device)
 
     # Print model summary
     print("Model Summary:")
@@ -294,6 +295,7 @@ def parse_arguments():
     parser.add_argument('--no_bottleneck', action='store_true', help='Remove bottleneck layers from DenseNet')
     parser.add_argument('--no_transition', action='store_true', help='Remove transition layers from DenseNet')
     parser.add_argument('--num_blocks', type=int, nargs='+', default=[6, 12, 24, 16], help='Number of blocks in each dense layer')
+    parser.add_argument('--compression_rate', type=float, default=0.5, help='Compression rate for transition layers')  # Added argument
 
     return parser.parse_args()
 
@@ -311,12 +313,6 @@ if __name__ == "__main__":
         batch_size=args.batch_size,
         num_blocks=args.num_blocks,
         use_bottleneck=not args.no_bottleneck,
-        use_transition=not args.no_transition
+        use_transition=not args.no_transition,
+        compression_rate=args.compression_rate  # Pass the new argument
     )
-    
-'''
-
-python main.py --train_dir '/media/zhaoyu/HDD/Datasets/QiuZhaoyu/PCG/main-1channel/dataset_mfcc/train_1/train' --test_dir '/media/zhaoyu/HDD/Datasets/QiuZhaoyu/PCG/main-1channel/dataset_mfcc/train_1/test' --model_path '/media/zhaoyu/HDD/Models/Dense1.pth'
-                
-            
-'''
