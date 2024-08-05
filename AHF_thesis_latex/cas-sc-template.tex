@@ -1,0 +1,109 @@
+\documentclass[a4paper,fleqn]{cas-dc}
+
+\usepackage[numbers,sort,compress]{natbib}
+% \usepackage{graphics}
+\usepackage{subcaption}
+\usepackage[section]{placeins}
+\usepackage{textcomp}
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
+% \usepackage[table]{xcolor}
+%%%Author macros
+\def\tsc#1{\csdef{#1}{\textsc{\lowercase{#1}}\xspace}}
+\tsc{WGM}
+\tsc{QE}
+\tsc{EP}
+\tsc{PMS}
+\tsc{BEC}
+\tsc{DE}
+%%%
+
+% \usepackage{tables}
+\usepackage{diagbox}
+\usepackage{rotating}
+\usepackage{tabu}                    
+\usepackage{multirow}                 
+\usepackage{multicol}                 
+\usepackage{multirow}                
+\usepackage{float}                   
+\usepackage{makecell}                 
+\usepackage{booktabs}                 
+\begin{document}
+\sloppy
+\let\WriteBookmarks\relax
+\def\floatpagepagefraction{1}
+\def\textpagefraction{.001}
+
+% Short title
+\shorttitle{Rapid diagnosis technology for acute heart failure based on auscultation}
+
+% Short author
+\shortauthors{Hui et~al.}  
+
+% Main title of the paper
+\title [mode = title]{Rapid diagnosis technology for acute heart failure based on auscultation}                      
+
+% Author
+\author[1]{Hui Yu}
+\author[1]{Zhaoyu Qiu}[orcid=0000-0002-7728-7367]
+\author[2]{Zhigang Li}
+\author[1]{Jinglai Sun}
+\author[1]{Guangpu Wang}
+\author[1]{Jing Zhao}\ead{zhaojing_zj@tju.edu.cn}
+\cormark[1]
+\author[1]{Shuo Wang}\ead{ws111@tju.edu.cn}
+\cormark[1]
+%\author[1]{Jing Zhao}[ ]
+%\author[1]{Hui Yu}[]
+%\author[2]{Gangde Li}[]
+
+\credit{Conceptualization, Methodology, Writing original draft}
+
+% \cortext[cor1]{These authors contributed equally to this work.}
+\cortext[cor1]{Corresponding author}
+% Address/affiliation
+\affiliation[1]{organization={Department of Biomedical Engineering},
+                addressline={Tianjin University}, 
+                city={Tianjin},
+                postcode={300072},
+                country={China}}
+
+
+\affiliation[2]{organization={Department of Emergency Medicine},
+                addressline={Tianjin 4TH Centre Hospital},
+                city={Tianjin},
+               postcode={300142},
+               country={China}}
+
+\input{sections/abstract}
+
+% Research highlights
+\begin{highlights}
+\item An auscultation dataset has been established, containing 2999  recordings from heart failure patients, each with rich annotations, and are publicly accessible on \href{https://github.com/qiuzhaoyu/AHF-Rapid-Diagnosis/Database}{https://github.com/qiuzhaoyu/AHF-Rapid-Diagnosis/Database}.
+% \item A wavelet denoising algorithm and a lightweight DenseHF-Net have been developed for short-duration auscultation, aiming at rapid diagnosis of acute heart failure.
+% \item We have introduced two auscultation strategies: multi-region fusion auscultation and mitral valve auscultation. Multi-region fusion auscultation is designed for monitoring scenes, while mitral valve auscultation is designed for rapid diagnosis in cases of heart failure emergencies.
+\end{highlights}
+
+\begin{keywords}
+\sep Heart Sound Signal\sep Acute Heart Failure\sep Mel Frequency Cepstrum Coefficient\sep Lightweight Deep Learning Model
+\end{keywords}
+
+\maketitle
+
+
+
+\input{sections/introduction}
+\input{sections/method}
+\input{sections/Results}
+% \input{sections/Discussion}
+% \input{sections/conclusion}
+\input{sections/data and code availability}
+\input{sections/Funding}
+% \input{sections/Declaration}
+\newpage
+%% Loading bibliography style file
+\bibliographystyle{model1-num-names}
+% Loading bibliography database
+\bibliography{References.bib}
+\end{document}
+
