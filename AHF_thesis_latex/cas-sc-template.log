@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.5)  5 AUG 2024 13:46
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.5)  7 AUG 2024 20:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1337,6 +1337,9 @@ Package hyperref Info: Link coloring ON on input line 31.
 \openout4 = `cas-sc-template.out'.
 
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 (/usr/local/texlive/2024/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
@@ -1611,7 +1614,78 @@ Underfull \hbox (badness 1072) in paragraph at lines 265--406
 
  []
 
-[7]) (./sections/data and code availability.tex) (./sections/Funding.tex
+[7]) (./sections/Discussion.tex [8]
+File: figs/disscussion/a.png Graphic file (type bmp)
+<figs/disscussion/a.png>
+File: figs/disscussion/b.png Graphic file (type bmp)
+<figs/disscussion/b.png>
+File: figs/disscussion/c.png Graphic file (type bmp)
+<figs/disscussion/c.png>
+File: figs/disscussion/d.png Graphic file (type bmp)
+<figs/disscussion/d.png>
+File: figs/disscussion/e.png Graphic file (type bmp)
+<figs/disscussion/e.png>
+File: figs/disscussion/1.5s.png Graphic file (type bmp)
+<figs/disscussion/1.5s.png>
+File: figs/disscussion/2s.png Graphic file (type bmp)
+<figs/disscussion/2s.png>
+File: figs/disscussion/3s.png Graphic file (type bmp)
+<figs/disscussion/3s.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figs/results/n_mfcc.png Graphic file (type bmp)
+<figs/results/n_mfcc.png>
+File: figs/results/mvp_mfcc.png Graphic file (type bmp)
+<figs/results/mvp_mfcc.png>
+
+Underfull \hbox (badness 4156) in paragraph at lines 85--105
+[]\T1/stix/m/n/10 Fig.[][]6a[][] il-lus-trates a rep-re-sen-ta-tion of nor-mal 
+heart
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+[]\T1/stix/m/n/10 For multi-region fu-sion aus-cul-ta-tion, DenseHF-
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 108--109
+\T1/stix/m/n/10 Net, ResNet-18, and MobileNetV1-28 un-dergo 10-fold
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 108--109
+\T1/stix/m/n/10 cross-training to cal-cu-late av-er-age ac-cu-racy, sen-si-tiv-
+ity,
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 108--109
+\T1/stix/m/n/10 speci-ficity, and F1-Score. Among these three mod-els,
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 108--109
+\T1/stix/m/n/10 DenseHF-Net records 99.08%, which is 0.01% lower
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 108--109
+\T1/stix/m/n/10 1.65% lower than ResNet-18 and 1.80% lower than
+ []
+
+[9] [10]) (./sections/conclusion.tex [11])
+(./sections/data and code availability.tex
+Underfull \hbox (badness 1168) in paragraph at lines 2--1
+\T1/stix/m/n/10 as the top-performing model in heart fail-ure di-ag-no-sis,
+ []
+
+) (./sections/Funding.tex
 Underfull \hbox (badness 5359) in paragraph at lines 2--1
 []\T1/stix/m/n/10 Data col-lec-tion has been ap-proved by the med-i-
  []
@@ -1631,16 +1705,14 @@ Underfull \hbox (badness 2237) in paragraph at lines 2--1
 \T1/stix/m/n/10 is avail-able at [][]https://github.com/qiuzhaoyu/AHF-Rapid-
  []
 
-[8]) (./cas-sc-template.bbl
+) (./sections/Declaration.tex) (./cas-sc-template.bbl
 Missing character: There is no — ("2014) in font t1-stixgeneral!
-[9]
+[12]
 Underfull \hbox (badness 1286) in paragraph at lines 251--261
 []\T1/stix/m/n/8 A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang,
  []
 
-) [10
-
-] (./cas-sc-template.aux)
+) [13] (./cas-sc-template.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1649,12 +1721,12 @@ Package rerunfilecheck Info: File `cas-sc-template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 40059 strings out of 474773
- 878276 string characters out of 5757725
+ 40221 strings out of 474773
+ 882322 string characters out of 5757725
  1975839 words of memory out of 5000000
- 61509 multiletter control sequences out of 15000+600000
+ 61650 multiletter control sequences out of 15000+600000
  661706 words of font info for 158 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,20n,131p,1896b,2595s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cas-sc-template.pdf (11 pages).
+Output written on cas-sc-template.pdf (14 pages).
