@@ -12,308 +12,164 @@
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
 %Type = Article
-\bibitem[{Virani et~al.(2020)Virani, Alonso, Benjamin, Bittencourt, Callaway,
-  Carson, Chamberlain, Chang, Cheng, Delling et~al.}]{virani2020heart}
-\bibinfo{author}{S.~S. Virani}, \bibinfo{author}{A.~Alonso},
-  \bibinfo{author}{E.~J. Benjamin}, \bibinfo{author}{M.~S. Bittencourt},
-  \bibinfo{author}{C.~W. Callaway}, \bibinfo{author}{A.~P. Carson},
-  \bibinfo{author}{A.~M. Chamberlain}, \bibinfo{author}{A.~R. Chang},
-  \bibinfo{author}{S.~Cheng}, \bibinfo{author}{F.~N. Delling}, et~al.,
-\newblock \bibinfo{title}{Heart disease and stroke statistics—2020 update: a
-  report from the american heart association},
-\newblock \bibinfo{journal}{Circulation} \bibinfo{volume}{141}
-  (\bibinfo{year}{2020}) \bibinfo{pages}{e139--e596}.
+\bibitem[{Virani et~al.(2020)Virani, Alonso, Benjamin, Bittencourt, Callaway, Carson, Chamberlain, Chang, Cheng, Delling et~al.}]{virani2020heart}
+\bibinfo{author}{S.~S. Virani}, \bibinfo{author}{A.~Alonso}, \bibinfo{author}{E.~J. Benjamin}, \bibinfo{author}{M.~S. Bittencourt}, \bibinfo{author}{C.~W. Callaway}, \bibinfo{author}{A.~P. Carson}, \bibinfo{author}{A.~M. Chamberlain}, \bibinfo{author}{A.~R. Chang}, \bibinfo{author}{S.~Cheng}, \bibinfo{author}{F.~N. Delling}, et~al.,
+\newblock \bibinfo{title}{Heart disease and stroke statistics—2020 update: a report from the american heart association},
+\newblock \bibinfo{journal}{Circulation} \bibinfo{volume}{141} (\bibinfo{year}{2020}) \bibinfo{pages}{e139--e596}.
 %Type = Article
-\bibitem[{Roth et~al.(2020)Roth, Mensah, Johnson, Addolorato, Ammirati,
-  Baddour, Barengo, Beaton, Benjamin, Benziger et~al.}]{roth2020global}
-\bibinfo{author}{G.~A. Roth}, \bibinfo{author}{G.~A. Mensah},
-  \bibinfo{author}{C.~O. Johnson}, \bibinfo{author}{G.~Addolorato},
-  \bibinfo{author}{E.~Ammirati}, \bibinfo{author}{L.~M. Baddour},
-  \bibinfo{author}{N.~C. Barengo}, \bibinfo{author}{A.~Z. Beaton},
-  \bibinfo{author}{E.~J. Benjamin}, \bibinfo{author}{C.~P. Benziger}, et~al.,
-\newblock \bibinfo{title}{Global burden of cardiovascular diseases and risk
-  factors, 1990--2019: update from the gbd 2019 study},
-\newblock \bibinfo{journal}{Journal of the American College of Cardiology}
-  \bibinfo{volume}{76} (\bibinfo{year}{2020}) \bibinfo{pages}{2982--3021}.
+\bibitem[{Roth et~al.(2020)Roth, Mensah, Johnson, Addolorato, Ammirati, Baddour, Barengo, Beaton, Benjamin, Benziger et~al.}]{roth2020global}
+\bibinfo{author}{G.~A. Roth}, \bibinfo{author}{G.~A. Mensah}, \bibinfo{author}{C.~O. Johnson}, \bibinfo{author}{G.~Addolorato}, \bibinfo{author}{E.~Ammirati}, \bibinfo{author}{L.~M. Baddour}, \bibinfo{author}{N.~C. Barengo}, \bibinfo{author}{A.~Z. Beaton}, \bibinfo{author}{E.~J. Benjamin}, \bibinfo{author}{C.~P. Benziger}, et~al.,
+\newblock \bibinfo{title}{Global burden of cardiovascular diseases and risk factors, 1990--2019: update from the gbd 2019 study},
+\newblock \bibinfo{journal}{Journal of the American College of Cardiology} \bibinfo{volume}{76} (\bibinfo{year}{2020}) \bibinfo{pages}{2982--3021}.
 %Type = Misc
 \bibitem[{Mensah et~al.(2019)Mensah, Roth, and Fuster}]{mensah2019global}
-\bibinfo{author}{G.~A. Mensah}, \bibinfo{author}{G.~A. Roth},
-  \bibinfo{author}{V.~Fuster}, \bibinfo{title}{The global burden of
-  cardiovascular diseases and risk factors: 2020 and beyond},
-  \bibinfo{year}{2019}.
+\bibinfo{author}{G.~A. Mensah}, \bibinfo{author}{G.~A. Roth}, \bibinfo{author}{V.~Fuster}, \bibinfo{title}{The global burden of cardiovascular diseases and risk factors: 2020 and beyond}, \bibinfo{year}{2019}.
 %Type = Article
-\bibitem[{Boorsma et~al.(2020)Boorsma, Ter~Maaten, Damman, Dinh, Gustafsson,
-  Goldsmith, Burkhoff, Zannad, Udelson, and Voors}]{boorsma2020congestion}
-\bibinfo{author}{E.~M. Boorsma}, \bibinfo{author}{J.~M. Ter~Maaten},
-  \bibinfo{author}{K.~Damman}, \bibinfo{author}{W.~Dinh},
-  \bibinfo{author}{F.~Gustafsson}, \bibinfo{author}{S.~Goldsmith},
-  \bibinfo{author}{D.~Burkhoff}, \bibinfo{author}{F.~Zannad},
-  \bibinfo{author}{J.~E. Udelson}, \bibinfo{author}{A.~A. Voors},
-\newblock \bibinfo{title}{Congestion in heart failure: a contemporary look at
-  physiology, diagnosis and treatment},
-\newblock \bibinfo{journal}{Nature Reviews Cardiology} \bibinfo{volume}{17}
-  (\bibinfo{year}{2020}) \bibinfo{pages}{641--655}.
+\bibitem[{Boorsma et~al.(2020)Boorsma, Ter~Maaten, Damman, Dinh, Gustafsson, Goldsmith, Burkhoff, Zannad, Udelson, and Voors}]{boorsma2020congestion}
+\bibinfo{author}{E.~M. Boorsma}, \bibinfo{author}{J.~M. Ter~Maaten}, \bibinfo{author}{K.~Damman}, \bibinfo{author}{W.~Dinh}, \bibinfo{author}{F.~Gustafsson}, \bibinfo{author}{S.~Goldsmith}, \bibinfo{author}{D.~Burkhoff}, \bibinfo{author}{F.~Zannad}, \bibinfo{author}{J.~E. Udelson}, \bibinfo{author}{A.~A. Voors},
+\newblock \bibinfo{title}{Congestion in heart failure: a contemporary look at physiology, diagnosis and treatment},
+\newblock \bibinfo{journal}{Nature Reviews Cardiology} \bibinfo{volume}{17} (\bibinfo{year}{2020}) \bibinfo{pages}{641--655}.
 %Type = Article
 \bibitem[{Sinnenberg and Givertz(2020)}]{sinnenberg2020acute}
 \bibinfo{author}{L.~Sinnenberg}, \bibinfo{author}{M.~M. Givertz},
 \newblock \bibinfo{title}{Acute heart failure},
-\newblock \bibinfo{journal}{Trends in Cardiovascular Medicine}
-  \bibinfo{volume}{30} (\bibinfo{year}{2020}) \bibinfo{pages}{104--112}.
+\newblock \bibinfo{journal}{Trends in Cardiovascular Medicine} \bibinfo{volume}{30} (\bibinfo{year}{2020}) \bibinfo{pages}{104--112}.
 %Type = Article
-\bibitem[{Arrigo et~al.(2020)Arrigo, Jessup, Mullens, Reza, Shah, Sliwa, and
-  Mebazaa}]{arrigo2020acute}
-\bibinfo{author}{M.~Arrigo}, \bibinfo{author}{M.~Jessup},
-  \bibinfo{author}{W.~Mullens}, \bibinfo{author}{N.~Reza},
-  \bibinfo{author}{A.~M. Shah}, \bibinfo{author}{K.~Sliwa},
-  \bibinfo{author}{A.~Mebazaa},
+\bibitem[{Arrigo et~al.(2020)Arrigo, Jessup, Mullens, Reza, Shah, Sliwa, and Mebazaa}]{arrigo2020acute}
+\bibinfo{author}{M.~Arrigo}, \bibinfo{author}{M.~Jessup}, \bibinfo{author}{W.~Mullens}, \bibinfo{author}{N.~Reza}, \bibinfo{author}{A.~M. Shah}, \bibinfo{author}{K.~Sliwa}, \bibinfo{author}{A.~Mebazaa},
 \newblock \bibinfo{title}{Acute heart failure},
-\newblock \bibinfo{journal}{Nature Reviews Disease Primers} \bibinfo{volume}{6}
-  (\bibinfo{year}{2020}) \bibinfo{pages}{1--15}.
+\newblock \bibinfo{journal}{Nature Reviews Disease Primers} \bibinfo{volume}{6} (\bibinfo{year}{2020}) \bibinfo{pages}{1--15}.
 %Type = Article
-\bibitem[{Chapman et~al.(2019)Chapman, DeVore, Mentz, and
-  Metra}]{chapman2019clinical}
-\bibinfo{author}{B.~Chapman}, \bibinfo{author}{A.~D. DeVore},
-  \bibinfo{author}{R.~J. Mentz}, \bibinfo{author}{M.~Metra},
-\newblock \bibinfo{title}{Clinical profiles in acute heart failure: an urgent
-  need for a new approach},
-\newblock \bibinfo{journal}{ESC heart failure} \bibinfo{volume}{6}
-  (\bibinfo{year}{2019}) \bibinfo{pages}{464--474}.
+\bibitem[{Chapman et~al.(2019)Chapman, DeVore, Mentz, and Metra}]{chapman2019clinical}
+\bibinfo{author}{B.~Chapman}, \bibinfo{author}{A.~D. DeVore}, \bibinfo{author}{R.~J. Mentz}, \bibinfo{author}{M.~Metra},
+\newblock \bibinfo{title}{Clinical profiles in acute heart failure: an urgent need for a new approach},
+\newblock \bibinfo{journal}{ESC heart failure} \bibinfo{volume}{6} (\bibinfo{year}{2019}) \bibinfo{pages}{464--474}.
 %Type = Article
-\bibitem[{Victor et~al.(2012)Victor, Gnanaraj, Vijayakumar, Pattabiram, and
-  Mullasari}]{victor2012door}
-\bibinfo{author}{S.~M. Victor}, \bibinfo{author}{A.~Gnanaraj},
-  \bibinfo{author}{S.~Vijayakumar}, \bibinfo{author}{S.~Pattabiram},
-  \bibinfo{author}{A.~S. Mullasari},
-\newblock \bibinfo{title}{Door-to-balloon: where do we lose time? single centre
-  experience in india},
-\newblock \bibinfo{journal}{indian heart journal} \bibinfo{volume}{64}
-  (\bibinfo{year}{2012}) \bibinfo{pages}{582--587}.
+\bibitem[{Victor et~al.(2012)Victor, Gnanaraj, Vijayakumar, Pattabiram, and Mullasari}]{victor2012door}
+\bibinfo{author}{S.~M. Victor}, \bibinfo{author}{A.~Gnanaraj}, \bibinfo{author}{S.~Vijayakumar}, \bibinfo{author}{S.~Pattabiram}, \bibinfo{author}{A.~S. Mullasari},
+\newblock \bibinfo{title}{Door-to-balloon: where do we lose time? single centre experience in india},
+\newblock \bibinfo{journal}{indian heart journal} \bibinfo{volume}{64} (\bibinfo{year}{2012}) \bibinfo{pages}{582--587}.
 %Type = Article
 \bibitem[{Fan and Zhang(2021)}]{fan2021effects}
 \bibinfo{author}{Z.~Fan}, \bibinfo{author}{F.~Zhang},
-\newblock \bibinfo{title}{Effects of an emergency nursing pathway on the
-  complications and clinical prognosis of patients with acute myocardial
-  infarction},
-\newblock \bibinfo{journal}{Int J Clin Exp Med} \bibinfo{volume}{14}
-  (\bibinfo{year}{2021}) \bibinfo{pages}{661--668}.
+\newblock \bibinfo{title}{Effects of an emergency nursing pathway on the complications and clinical prognosis of patients with acute myocardial infarction},
+\newblock \bibinfo{journal}{Int J Clin Exp Med} \bibinfo{volume}{14} (\bibinfo{year}{2021}) \bibinfo{pages}{661--668}.
 %Type = Article
-\bibitem[{Nieminen et~al.(2005)Nieminen, B{\"o}hm, Cowie, Drexler, Filippatos,
-  Jondeau, Hasin et~al.}]{nieminen2005task}
-\bibinfo{author}{M.~Nieminen}, \bibinfo{author}{M.~B{\"o}hm},
-  \bibinfo{author}{M.~Cowie}, \bibinfo{author}{H.~Drexler},
-  \bibinfo{author}{G.~Filippatos}, \bibinfo{author}{G.~Jondeau},
-  \bibinfo{author}{Y.~Hasin}, et~al.,
-\newblock \bibinfo{title}{Task force on acute heart failure. executive summary
-  of the guidelines on the diagnosis and treatment of acute heart failure: the
-  task force on acute heart failure of the european society of cardiology},
-\newblock \bibinfo{journal}{Eur Heart J} \bibinfo{volume}{26}
-  (\bibinfo{year}{2005}) \bibinfo{pages}{384--416}.
+\bibitem[{Nieminen et~al.(2005)Nieminen, B{\"o}hm, Cowie, Drexler, Filippatos, Jondeau, Hasin et~al.}]{nieminen2005task}
+\bibinfo{author}{M.~Nieminen}, \bibinfo{author}{M.~B{\"o}hm}, \bibinfo{author}{M.~Cowie}, \bibinfo{author}{H.~Drexler}, \bibinfo{author}{G.~Filippatos}, \bibinfo{author}{G.~Jondeau}, \bibinfo{author}{Y.~Hasin}, et~al.,
+\newblock \bibinfo{title}{Task force on acute heart failure. executive summary of the guidelines on the diagnosis and treatment of acute heart failure: the task force on acute heart failure of the european society of cardiology},
+\newblock \bibinfo{journal}{Eur Heart J} \bibinfo{volume}{26} (\bibinfo{year}{2005}) \bibinfo{pages}{384--416}.
 %Type = Article
-\bibitem[{Lewis et~al.(2020)Lewis, Durrington, Condliffe, and
-  Kiely}]{lewis2020bnp}
-\bibinfo{author}{R.~A. Lewis}, \bibinfo{author}{C.~Durrington},
-  \bibinfo{author}{R.~Condliffe}, \bibinfo{author}{D.~G. Kiely},
-\newblock \bibinfo{title}{Bnp/nt-probnp in pulmonary arterial hypertension:
-  time for point-of-care testing?},
-\newblock \bibinfo{journal}{European Respiratory Review} \bibinfo{volume}{29}
-  (\bibinfo{year}{2020}).
+\bibitem[{Lewis et~al.(2020)Lewis, Durrington, Condliffe, and Kiely}]{lewis2020bnp}
+\bibinfo{author}{R.~A. Lewis}, \bibinfo{author}{C.~Durrington}, \bibinfo{author}{R.~Condliffe}, \bibinfo{author}{D.~G. Kiely},
+\newblock \bibinfo{title}{Bnp/nt-probnp in pulmonary arterial hypertension: time for point-of-care testing?},
+\newblock \bibinfo{journal}{European Respiratory Review} \bibinfo{volume}{29} (\bibinfo{year}{2020}).
 %Type = Article
-\bibitem[{Menon et~al.(2022)Menon, Kapoor, and
-  Choudhury}]{menon2022echocardiography}
-\bibinfo{author}{P.~Menon}, \bibinfo{author}{P.~M. Kapoor},
-  \bibinfo{author}{M.~Choudhury},
-\newblock \bibinfo{title}{Echocardiography for left ventricular assist device
-  patients},
-\newblock \bibinfo{journal}{Journal of Cardiac Critical Care TSS}
-  \bibinfo{volume}{6} (\bibinfo{year}{2022}) \bibinfo{pages}{155--161}.
+\bibitem[{Menon et~al.(2022)Menon, Kapoor, and Choudhury}]{menon2022echocardiography}
+\bibinfo{author}{P.~Menon}, \bibinfo{author}{P.~M. Kapoor}, \bibinfo{author}{M.~Choudhury},
+\newblock \bibinfo{title}{Echocardiography for left ventricular assist device patients},
+\newblock \bibinfo{journal}{Journal of Cardiac Critical Care TSS} \bibinfo{volume}{6} (\bibinfo{year}{2022}) \bibinfo{pages}{155--161}.
 %Type = Article
-\bibitem[{Johnston et~al.(2007)Johnston, Collins, and
-  Storrow}]{johnston2007third}
-\bibinfo{author}{M.~Johnston}, \bibinfo{author}{S.~P. Collins},
-  \bibinfo{author}{A.~B. Storrow},
-\newblock \bibinfo{title}{The third heart sound for diagnosis of acute heart
-  failure},
-\newblock \bibinfo{journal}{Current Heart Failure Reports} \bibinfo{volume}{4}
-  (\bibinfo{year}{2007}) \bibinfo{pages}{164--169}.
+\bibitem[{Johnston et~al.(2007)Johnston, Collins, and Storrow}]{johnston2007third}
+\bibinfo{author}{M.~Johnston}, \bibinfo{author}{S.~P. Collins}, \bibinfo{author}{A.~B. Storrow},
+\newblock \bibinfo{title}{The third heart sound for diagnosis of acute heart failure},
+\newblock \bibinfo{journal}{Current Heart Failure Reports} \bibinfo{volume}{4} (\bibinfo{year}{2007}) \bibinfo{pages}{164--169}.
 %Type = Article
 \bibitem[{Wynne(2001)}]{wynne2001clinical}
 \bibinfo{author}{J.~Wynne},
 \newblock \bibinfo{title}{The clinical meaning of the third heart sound},
-\newblock \bibinfo{journal}{The American Journal of Medicine}
-  \bibinfo{volume}{111} (\bibinfo{year}{2001}) \bibinfo{pages}{157--158}.
+\newblock \bibinfo{journal}{The American Journal of Medicine} \bibinfo{volume}{111} (\bibinfo{year}{2001}) \bibinfo{pages}{157--158}.
 %Type = Inproceedings
-\bibitem[{Clifford et~al.(2016)Clifford, Liu, Moody, Springer, Silva, Li, and
-  Mark}]{clifford2016classification}
-\bibinfo{author}{G.~D. Clifford}, \bibinfo{author}{C.~Liu},
-  \bibinfo{author}{B.~Moody}, \bibinfo{author}{D.~Springer},
-  \bibinfo{author}{I.~Silva}, \bibinfo{author}{Q.~Li}, \bibinfo{author}{R.~G.
-  Mark},
-\newblock \bibinfo{title}{Classification of normal/abnormal heart sound
-  recordings: The physionet/computing in cardiology challenge 2016},
-\newblock in: \bibinfo{booktitle}{2016 Computing in cardiology conference
-  (CinC)}, \bibinfo{organization}{IEEE}, \bibinfo{year}{2016}, pp.
-  \bibinfo{pages}{609--612}.
+\bibitem[{Clifford et~al.(2016)Clifford, Liu, Moody, Springer, Silva, Li, and Mark}]{clifford2016classification}
+\bibinfo{author}{G.~D. Clifford}, \bibinfo{author}{C.~Liu}, \bibinfo{author}{B.~Moody}, \bibinfo{author}{D.~Springer}, \bibinfo{author}{I.~Silva}, \bibinfo{author}{Q.~Li}, \bibinfo{author}{R.~G. Mark},
+\newblock \bibinfo{title}{Classification of normal/abnormal heart sound recordings: The physionet/computing in cardiology challenge 2016},
+\newblock in: \bibinfo{booktitle}{2016 Computing in cardiology conference (CinC)}, \bibinfo{organization}{IEEE}, \bibinfo{year}{2016}, pp. \bibinfo{pages}{609--612}.
 %Type = Article
 \bibitem[{Son and Kwon(2018)}]{son2018classification}
 \bibinfo{author}{G.-Y. Son}, \bibinfo{author}{S.~Kwon},
-\newblock \bibinfo{title}{Classification of heart sound signal using multiple
-  features},
-\newblock \bibinfo{journal}{Applied Sciences} \bibinfo{volume}{8}
-  (\bibinfo{year}{2018}) \bibinfo{pages}{2344}.
+\newblock \bibinfo{title}{Classification of heart sound signal using multiple features},
+\newblock \bibinfo{journal}{Applied Sciences} \bibinfo{volume}{8} (\bibinfo{year}{2018}) \bibinfo{pages}{2344}.
 %Type = Inproceedings
 \bibitem[{Vepa(2009)}]{vepa2009classification}
 \bibinfo{author}{J.~Vepa},
-\newblock \bibinfo{title}{Classification of heart murmurs using cepstral
-  features and support vector machines},
-\newblock in: \bibinfo{booktitle}{2009 Annual International Conference of the
-  IEEE Engineering in Medicine and Biology Society},
-  \bibinfo{organization}{IEEE}, \bibinfo{year}{2009}, pp.
-  \bibinfo{pages}{2539--2542}.
+\newblock \bibinfo{title}{Classification of heart murmurs using cepstral features and support vector machines},
+\newblock in: \bibinfo{booktitle}{2009 Annual International Conference of the IEEE Engineering in Medicine and Biology Society}, \bibinfo{organization}{IEEE}, \bibinfo{year}{2009}, pp. \bibinfo{pages}{2539--2542}.
 %Type = Inproceedings
 \bibitem[{Wu et~al.(2010)Wu, Kim, and Bae}]{wu2010hidden}
 \bibinfo{author}{H.~Wu}, \bibinfo{author}{S.~Kim}, \bibinfo{author}{K.~Bae},
-\newblock \bibinfo{title}{Hidden markov model with heart sound signals for
-  identification of heart diseases},
-\newblock in: \bibinfo{booktitle}{Proceedings of 20th International Congress on
-  Acoustics (ICA), Sydney, Australia}, \bibinfo{year}{2010}, pp.
-  \bibinfo{pages}{23--27}.
+\newblock \bibinfo{title}{Hidden markov model with heart sound signals for identification of heart diseases},
+\newblock in: \bibinfo{booktitle}{Proceedings of 20th International Congress on Acoustics (ICA), Sydney, Australia}, \bibinfo{year}{2010}, pp. \bibinfo{pages}{23--27}.
 %Type = Inproceedings
-\bibitem[{Rubin et~al.(2016)Rubin, Abreu, Ganguli, Nelaturi, Matei, and
-  Sricharan}]{rubin2016classifying}
-\bibinfo{author}{J.~Rubin}, \bibinfo{author}{R.~Abreu},
-  \bibinfo{author}{A.~Ganguli}, \bibinfo{author}{S.~Nelaturi},
-  \bibinfo{author}{I.~Matei}, \bibinfo{author}{K.~Sricharan},
-\newblock \bibinfo{title}{Classifying heart sound recordings using deep
-  convolutional neural networks and mel-frequency cepstral coefficients},
-\newblock in: \bibinfo{booktitle}{2016 Computing in cardiology conference
-  (CinC)}, \bibinfo{organization}{IEEE}, \bibinfo{year}{2016}, pp.
-  \bibinfo{pages}{813--816}.
+\bibitem[{Rubin et~al.(2016)Rubin, Abreu, Ganguli, Nelaturi, Matei, and Sricharan}]{rubin2016classifying}
+\bibinfo{author}{J.~Rubin}, \bibinfo{author}{R.~Abreu}, \bibinfo{author}{A.~Ganguli}, \bibinfo{author}{S.~Nelaturi}, \bibinfo{author}{I.~Matei}, \bibinfo{author}{K.~Sricharan},
+\newblock \bibinfo{title}{Classifying heart sound recordings using deep convolutional neural networks and mel-frequency cepstral coefficients},
+\newblock in: \bibinfo{booktitle}{2016 Computing in cardiology conference (CinC)}, \bibinfo{organization}{IEEE}, \bibinfo{year}{2016}, pp. \bibinfo{pages}{813--816}.
 %Type = Article
-\bibitem[{Arora et~al.(2021)Arora, Verma, Leekha, Lee, Choi, Gupta, and
-  Bhatia}]{arora2021transfer}
-\bibinfo{author}{V.~Arora}, \bibinfo{author}{K.~Verma}, \bibinfo{author}{R.~S.
-  Leekha}, \bibinfo{author}{K.~Lee}, \bibinfo{author}{C.~Choi},
-  \bibinfo{author}{T.~Gupta}, \bibinfo{author}{K.~Bhatia},
-\newblock \bibinfo{title}{Transfer learning model to indicate heart health
-  status using phonocardiogram}  (\bibinfo{year}{2021}).
+\bibitem[{Arora et~al.(2021)Arora, Verma, Leekha, Lee, Choi, Gupta, and Bhatia}]{arora2021transfer}
+\bibinfo{author}{V.~Arora}, \bibinfo{author}{K.~Verma}, \bibinfo{author}{R.~S. Leekha}, \bibinfo{author}{K.~Lee}, \bibinfo{author}{C.~Choi}, \bibinfo{author}{T.~Gupta}, \bibinfo{author}{K.~Bhatia},
+\newblock \bibinfo{title}{Transfer learning model to indicate heart health status using phonocardiogram}  (\bibinfo{year}{2021}).
 %Type = Article
 \bibitem[{Li et~al.(2021)Li, Yin, Ma, Zhang, and Liu}]{li2021lightweight}
-\bibinfo{author}{T.~Li}, \bibinfo{author}{Y.~Yin}, \bibinfo{author}{K.~Ma},
-  \bibinfo{author}{S.~Zhang}, \bibinfo{author}{M.~Liu},
-\newblock \bibinfo{title}{Lightweight end-to-end neural network model for
-  automatic heart sound classification},
-\newblock \bibinfo{journal}{Information} \bibinfo{volume}{12}
-  (\bibinfo{year}{2021}) \bibinfo{pages}{54}.
+\bibinfo{author}{T.~Li}, \bibinfo{author}{Y.~Yin}, \bibinfo{author}{K.~Ma}, \bibinfo{author}{S.~Zhang}, \bibinfo{author}{M.~Liu},
+\newblock \bibinfo{title}{Lightweight end-to-end neural network model for automatic heart sound classification},
+\newblock \bibinfo{journal}{Information} \bibinfo{volume}{12} (\bibinfo{year}{2021}) \bibinfo{pages}{54}.
 %Type = Article
-\bibitem[{Shuvo et~al.(2021)Shuvo, Ali, Swapnil, Al-Rakhami, and
-  Gumaei}]{shuvo2021cardioxnet}
-\bibinfo{author}{S.~B. Shuvo}, \bibinfo{author}{S.~N. Ali},
-  \bibinfo{author}{S.~I. Swapnil}, \bibinfo{author}{M.~S. Al-Rakhami},
-  \bibinfo{author}{A.~Gumaei},
-\newblock \bibinfo{title}{Cardioxnet: A novel lightweight deep learning
-  framework for cardiovascular disease classification using heart sound
-  recordings},
-\newblock \bibinfo{journal}{IEEE Access} \bibinfo{volume}{9}
-  (\bibinfo{year}{2021}) \bibinfo{pages}{36955--36967}.
+\bibitem[{Shuvo et~al.(2021)Shuvo, Ali, Swapnil, Al-Rakhami, and Gumaei}]{shuvo2021cardioxnet}
+\bibinfo{author}{S.~B. Shuvo}, \bibinfo{author}{S.~N. Ali}, \bibinfo{author}{S.~I. Swapnil}, \bibinfo{author}{M.~S. Al-Rakhami}, \bibinfo{author}{A.~Gumaei},
+\newblock \bibinfo{title}{Cardioxnet: A novel lightweight deep learning framework for cardiovascular disease classification using heart sound recordings},
+\newblock \bibinfo{journal}{IEEE Access} \bibinfo{volume}{9} (\bibinfo{year}{2021}) \bibinfo{pages}{36955--36967}.
 %Type = Article
 \bibitem[{Zhao et~al.(2006)Zhao, Liu, Ma, and Zhou}]{2006Research}
-\bibinfo{author}{J.~Y. Zhao}, \bibinfo{author}{H.~Y. Liu},
-  \bibinfo{author}{H.~S. Ma}, \bibinfo{author}{H.~D. Zhou},
-\newblock \bibinfo{title}{Research of the approach for the fetal heart sound
-  signal's extracting based on coif5 wavelet transform},
-\newblock \bibinfo{journal}{Chinese Journal of Biomedical Engineering}
-  (\bibinfo{year}{2006}).
+\bibinfo{author}{J.~Y. Zhao}, \bibinfo{author}{H.~Y. Liu}, \bibinfo{author}{H.~S. Ma}, \bibinfo{author}{H.~D. Zhou},
+\newblock \bibinfo{title}{Research of the approach for the fetal heart sound signal's extracting based on coif5 wavelet transform},
+\newblock \bibinfo{journal}{Chinese Journal of Biomedical Engineering}  (\bibinfo{year}{2006}).
 %Type = Article
 \bibitem[{Chen et~al.(2010)Chen, Han, and Xing}]{2010Research}
 \bibinfo{author}{T.~Chen}, \bibinfo{author}{L.~Han}, \bibinfo{author}{S.~Xing},
-\newblock \bibinfo{title}{Research of de-noising method of heart sound signals
-  based on wavelet transform},
-\newblock \bibinfo{journal}{Computer Simulation} \bibinfo{volume}{27}
-  (\bibinfo{year}{2010}) \bibinfo{pages}{401--405}.
+\newblock \bibinfo{title}{Research of de-noising method of heart sound signals based on wavelet transform},
+\newblock \bibinfo{journal}{Computer Simulation} \bibinfo{volume}{27} (\bibinfo{year}{2010}) \bibinfo{pages}{401--405}.
 %Type = Article
 \bibitem[{Cheng and Zhang(2014)}]{cheng2014denoising}
 \bibinfo{author}{X.~Cheng}, \bibinfo{author}{Z.~Zhang},
-\newblock \bibinfo{title}{Denoising method of heart sound signals based on
-  self-construct heart sound wavelet},
-\newblock \bibinfo{journal}{Aip Advances} \bibinfo{volume}{4}
-  (\bibinfo{year}{2014}) \bibinfo{pages}{087108}.
+\newblock \bibinfo{title}{Denoising method of heart sound signals based on self-construct heart sound wavelet},
+\newblock \bibinfo{journal}{Aip Advances} \bibinfo{volume}{4} (\bibinfo{year}{2014}) \bibinfo{pages}{087108}.
 %Type = Inproceedings
 \bibitem[{He et~al.(2016)He, Zhang, Ren, and Sun}]{he2016deep}
-\bibinfo{author}{K.~He}, \bibinfo{author}{X.~Zhang}, \bibinfo{author}{S.~Ren},
-  \bibinfo{author}{J.~Sun},
+\bibinfo{author}{K.~He}, \bibinfo{author}{X.~Zhang}, \bibinfo{author}{S.~Ren}, \bibinfo{author}{J.~Sun},
 \newblock \bibinfo{title}{Deep residual learning for image recognition},
-\newblock in: \bibinfo{booktitle}{Proceedings of the IEEE conference on
-  computer vision and pattern recognition}, \bibinfo{year}{2016}, pp.
-  \bibinfo{pages}{770--778}.
+\newblock in: \bibinfo{booktitle}{Proceedings of the IEEE conference on computer vision and pattern recognition}, \bibinfo{year}{2016}, pp. \bibinfo{pages}{770--778}.
 %Type = Article
-\bibitem[{Howard et~al.(2017)Howard, Zhu, Chen, Kalenichenko, Wang, Weyand,
-  Andreetto, and Adam}]{howard2017mobilenets}
-\bibinfo{author}{A.~G. Howard}, \bibinfo{author}{M.~Zhu},
-  \bibinfo{author}{B.~Chen}, \bibinfo{author}{D.~Kalenichenko},
-  \bibinfo{author}{W.~Wang}, \bibinfo{author}{T.~Weyand},
-  \bibinfo{author}{M.~Andreetto}, \bibinfo{author}{H.~Adam},
-\newblock \bibinfo{title}{Mobilenets: Efficient convolutional neural networks
-  for mobile vision applications},
-\newblock \bibinfo{journal}{arXiv preprint arXiv:1704.04861}
-  (\bibinfo{year}{2017}).
+\bibitem[{Howard et~al.(2017)Howard, Zhu, Chen, Kalenichenko, Wang, Weyand, Andreetto, and Adam}]{howard2017mobilenets}
+\bibinfo{author}{A.~G. Howard}, \bibinfo{author}{M.~Zhu}, \bibinfo{author}{B.~Chen}, \bibinfo{author}{D.~Kalenichenko}, \bibinfo{author}{W.~Wang}, \bibinfo{author}{T.~Weyand}, \bibinfo{author}{M.~Andreetto}, \bibinfo{author}{H.~Adam},
+\newblock \bibinfo{title}{Mobilenets: Efficient convolutional neural networks for mobile vision applications},
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1704.04861}  (\bibinfo{year}{2017}).
 %Type = Inproceedings
-\bibitem[{Huang et~al.(2017)Huang, Liu, Van Der~Maaten, and
-  Weinberger}]{huang2017densely}
-\bibinfo{author}{G.~Huang}, \bibinfo{author}{Z.~Liu}, \bibinfo{author}{L.~Van
-  Der~Maaten}, \bibinfo{author}{K.~Q. Weinberger},
+\bibitem[{Huang et~al.(2017)Huang, Liu, Van Der~Maaten, and Weinberger}]{huang2017densely}
+\bibinfo{author}{G.~Huang}, \bibinfo{author}{Z.~Liu}, \bibinfo{author}{L.~Van Der~Maaten}, \bibinfo{author}{K.~Q. Weinberger},
 \newblock \bibinfo{title}{Densely connected convolutional networks},
-\newblock in: \bibinfo{booktitle}{Proceedings of the IEEE conference on
-  computer vision and pattern recognition}, \bibinfo{year}{2017}, pp.
-  \bibinfo{pages}{4700--4708}.
+\newblock in: \bibinfo{booktitle}{Proceedings of the IEEE conference on computer vision and pattern recognition}, \bibinfo{year}{2017}, pp. \bibinfo{pages}{4700--4708}.
 %Type = Book
 \bibitem[{Taylor(2015)}]{taylor2015learning}
-\bibinfo{author}{A.~J. Taylor}, \bibinfo{title}{Learning Cardiac Auscultation:
-  From Essentials to Expert Clinical Interpretation},
-  \bibinfo{publisher}{Springer}, \bibinfo{year}{2015}.
+\bibinfo{author}{A.~J. Taylor}, \bibinfo{title}{Learning Cardiac Auscultation: From Essentials to Expert Clinical Interpretation}, \bibinfo{publisher}{Springer}, \bibinfo{year}{2015}.
 %Type = Article
-\bibitem[{Khade et~al.(2019)Khade, Subhedar, Choudhary, Deshpande, and
-  Kulkarni}]{khade2019system}
-\bibinfo{author}{S.~Khade}, \bibinfo{author}{A.~Subhedar},
-  \bibinfo{author}{K.~Choudhary}, \bibinfo{author}{T.~Deshpande},
-  \bibinfo{author}{U.~Kulkarni},
-\newblock \bibinfo{title}{A system to detect heart failure using deep learning
-  techniques},
-\newblock \bibinfo{journal}{Int. Res. J. Eng. Technol.(IRJET)}
-  \bibinfo{volume}{6} (\bibinfo{year}{2019}) \bibinfo{pages}{384--387}.
+\bibitem[{Khade et~al.(2019)Khade, Subhedar, Choudhary, Deshpande, and Kulkarni}]{khade2019system}
+\bibinfo{author}{S.~Khade}, \bibinfo{author}{A.~Subhedar}, \bibinfo{author}{K.~Choudhary}, \bibinfo{author}{T.~Deshpande}, \bibinfo{author}{U.~Kulkarni},
+\newblock \bibinfo{title}{A system to detect heart failure using deep learning techniques},
+\newblock \bibinfo{journal}{Int. Res. J. Eng. Technol.(IRJET)} \bibinfo{volume}{6} (\bibinfo{year}{2019}) \bibinfo{pages}{384--387}.
 %Type = Article
-\bibitem[{Rao et~al.(2022)Rao, Li, Ramakrishnan, Hassaine, Canoy, Cleland,
-  Lukasiewicz, Salimi-Khorshidi, and Rahimi}]{rao2022explainable}
-\bibinfo{author}{S.~Rao}, \bibinfo{author}{Y.~Li},
-  \bibinfo{author}{R.~Ramakrishnan}, \bibinfo{author}{A.~Hassaine},
-  \bibinfo{author}{D.~Canoy}, \bibinfo{author}{J.~Cleland},
-  \bibinfo{author}{T.~Lukasiewicz}, \bibinfo{author}{G.~Salimi-Khorshidi},
-  \bibinfo{author}{K.~Rahimi},
-\newblock \bibinfo{title}{An explainable transformer-based deep learning model
-  for the prediction of incident heart failure},
-\newblock \bibinfo{journal}{IEEE Journal of Biomedical and Health Informatics}
-  \bibinfo{volume}{26} (\bibinfo{year}{2022}) \bibinfo{pages}{3362--3372}.
+\bibitem[{Rao et~al.(2022)Rao, Li, Ramakrishnan, Hassaine, Canoy, Cleland, Lukasiewicz, Salimi-Khorshidi, and Rahimi}]{rao2022explainable}
+\bibinfo{author}{S.~Rao}, \bibinfo{author}{Y.~Li}, \bibinfo{author}{R.~Ramakrishnan}, \bibinfo{author}{A.~Hassaine}, \bibinfo{author}{D.~Canoy}, \bibinfo{author}{J.~Cleland}, \bibinfo{author}{T.~Lukasiewicz}, \bibinfo{author}{G.~Salimi-Khorshidi}, \bibinfo{author}{K.~Rahimi},
+\newblock \bibinfo{title}{An explainable transformer-based deep learning model for the prediction of incident heart failure},
+\newblock \bibinfo{journal}{IEEE Journal of Biomedical and Health Informatics} \bibinfo{volume}{26} (\bibinfo{year}{2022}) \bibinfo{pages}{3362--3372}.
 %Type = Article
-\bibitem[{Acharya et~al.(2019)Acharya, Fujita, Oh, Hagiwara, Tan, Adam, and
-  Tan}]{acharya2019deep}
-\bibinfo{author}{U.~R. Acharya}, \bibinfo{author}{H.~Fujita},
-  \bibinfo{author}{S.~L. Oh}, \bibinfo{author}{Y.~Hagiwara},
-  \bibinfo{author}{J.~H. Tan}, \bibinfo{author}{M.~Adam},
-  \bibinfo{author}{R.~S. Tan},
-\newblock \bibinfo{title}{Deep convolutional neural network for the automated
-  diagnosis of congestive heart failure using ecg signals},
-\newblock \bibinfo{journal}{Applied Intelligence} \bibinfo{volume}{49}
-  (\bibinfo{year}{2019}) \bibinfo{pages}{16--27}.
+\bibitem[{Acharya et~al.(2019)Acharya, Fujita, Oh, Hagiwara, Tan, Adam, and Tan}]{acharya2019deep}
+\bibinfo{author}{U.~R. Acharya}, \bibinfo{author}{H.~Fujita}, \bibinfo{author}{S.~L. Oh}, \bibinfo{author}{Y.~Hagiwara}, \bibinfo{author}{J.~H. Tan}, \bibinfo{author}{M.~Adam}, \bibinfo{author}{R.~S. Tan},
+\newblock \bibinfo{title}{Deep convolutional neural network for the automated diagnosis of congestive heart failure using ecg signals},
+\newblock \bibinfo{journal}{Applied Intelligence} \bibinfo{volume}{49} (\bibinfo{year}{2019}) \bibinfo{pages}{16--27}.
 %Type = Article
-\bibitem[{Matsumoto et~al.(2020)Matsumoto, Kodera, Shinohara, Ieki, Yamaguchi,
-  Higashikuni, Kiyosue, Ito, Ando, Takimoto et~al.}]{matsumoto2020diagnosing}
-\bibinfo{author}{T.~Matsumoto}, \bibinfo{author}{S.~Kodera},
-  \bibinfo{author}{H.~Shinohara}, \bibinfo{author}{H.~Ieki},
-  \bibinfo{author}{T.~Yamaguchi}, \bibinfo{author}{Y.~Higashikuni},
-  \bibinfo{author}{A.~Kiyosue}, \bibinfo{author}{K.~Ito},
-  \bibinfo{author}{J.~Ando}, \bibinfo{author}{E.~Takimoto}, et~al.,
-\newblock \bibinfo{title}{Diagnosing heart failure from chest x-ray images
-  using deep learning},
-\newblock \bibinfo{journal}{International Heart Journal} \bibinfo{volume}{61}
-  (\bibinfo{year}{2020}) \bibinfo{pages}{781--786}.
+\bibitem[{Matsumoto et~al.(2020)Matsumoto, Kodera, Shinohara, Ieki, Yamaguchi, Higashikuni, Kiyosue, Ito, Ando, Takimoto et~al.}]{matsumoto2020diagnosing}
+\bibinfo{author}{T.~Matsumoto}, \bibinfo{author}{S.~Kodera}, \bibinfo{author}{H.~Shinohara}, \bibinfo{author}{H.~Ieki}, \bibinfo{author}{T.~Yamaguchi}, \bibinfo{author}{Y.~Higashikuni}, \bibinfo{author}{A.~Kiyosue}, \bibinfo{author}{K.~Ito}, \bibinfo{author}{J.~Ando}, \bibinfo{author}{E.~Takimoto}, et~al.,
+\newblock \bibinfo{title}{Diagnosing heart failure from chest x-ray images using deep learning},
+\newblock \bibinfo{journal}{International Heart Journal} \bibinfo{volume}{61} (\bibinfo{year}{2020}) \bibinfo{pages}{781--786}.
 
 \end{thebibliography}
