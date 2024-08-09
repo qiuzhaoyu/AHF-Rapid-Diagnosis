@@ -11,6 +11,7 @@ import math
 import argparse
 from torchsummary import summary
 import time
+from thop import profile
 
 # Dataset class
 class PCGload(Dataset):
@@ -199,6 +200,13 @@ def tenepoch(model_save, train_root, test_root, augment, lr, batch_size, num_blo
     # Print model summary
     print("Model Summary:")
     print_model_summary(net, (3, 32, 32))  # Assuming input size is (3, 32, 32) for CIFAR-like data
+    
+    
+    flops, params = profile(net, inputs=( torch.randn(1, 3, 32, 32).to(device), ))
+    macs = flops / 2
+    print(f"FLOPs: {flops}")
+    print(f"MACs: {macs}")
+    print(f"Parameters: {params}")
 
     if device == 'cuda':
         net = nn.DataParallel(net)

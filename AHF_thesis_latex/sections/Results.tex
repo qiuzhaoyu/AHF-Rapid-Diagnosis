@@ -411,6 +411,23 @@ For mitral valve auscultation, the average accuracies achieved by the individual
 When combined with DenseHF-Net and the ensemble method, the overall performance improves significantly. The resulting average accuracy, sensitivity, specificity, and F1-score are enhanced to 94.41\%, 96.11\%, 92.00\%, and 93.95\%, respectively.
 \subsection{Ablation Study}
 \subsubsection{Effects of the Model Architecture}
-aaaaa
+
+\begin{table*}[htbp]
+	\centering
+	\caption{Ablation Study Results with Model Parameter Counts}
+	\label{tab: Effects of the Model Architecture}
+	\begin{tabular*}{\tblwidth}{CCCC}
+		\toprule
+		Model Configuration & $Acc(\%)$ & Sex & Length(min)\\ 
+		\midrule
+		Healthy&$24$&Male&27.0\\
+		Healthy&$26\pm 2$&Female&54.0\\
+		HF&$72.6\pm12.0$&Male&34.8\\
+		HF&$77.9\pm 11.1$&Female&36.8\\
+		\midrule
+	\end{tabular*}
+\end{table*}
+
+    
 \subsubsection{Effects of Preprocessing and Feature Extraction}
 aaa
