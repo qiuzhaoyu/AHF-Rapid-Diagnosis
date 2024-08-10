@@ -410,24 +410,33 @@ For mitral valve auscultation, the average accuracies achieved by the individual
 
 When combined with DenseHF-Net and the ensemble method, the overall performance improves significantly. The resulting average accuracy, sensitivity, specificity, and F1-score are enhanced to 94.41\%, 96.11\%, 92.00\%, and 93.95\%, respectively.
 \subsection{Ablation Study}
-\subsubsection{Effects of the Model Architecture}
+Table 3 presents the results of the ablation study, using Params, FLOPs, MACs, and ten-fold cross-validation accuracy as evaluation metrics. 
+DenseHF-Net strikes a balance between computational efficiency and performance, with 0.33 million parameters, 61.29 million FLOPs, and 30.64 million MACs, achieving an accuracy of 93.47\%.
 
+When wavelet-denoising was not applied, the accuracy dropped to 93.26\%, indicating that wavelet-denoising has a certain positive impact on model performance. Similarly, using Mel-spectrum features resulted in a significant decrease in accuracy to 90.77\%, highlighting the crucial role of feature selection in maintaining high performance.
+
+Adjusting the compression rate showed a clear trade-off between model complexity and accuracy. As the compression rate increased from 30\% to 70\%, the number of parameters, FLOPs, and MACs also increased, leading to a slight improvement in accuracy. However, the highest accuracy (95.1\%) was achieved without compression, which also resulted in the highest computational cost, underscoring the need to balance accuracy and efficiency.
+
+Finally, increasing the number of blocks in the network further raised the number of parameters, FLOPs, and MACs. When the block numbers were set to 8, 16, 32, 16, the accuracy reached 94.74\%. This indicates that while deeper networks may offer higher accuracy, they also significantly increase the computational burden, which could be a limiting factor in real-time or resource-constrained applications.
+
+In the final configuration, DenseHF-Net employed a 10\% compression rate and block numbers of 4, 8, 16, and 8. This configuration was chosen to prune the model as much as possible while maintaining performance, making it more suitable for emergency scenarios such as use in ambulances.
 \begin{table*}[htbp]
-	\centering
-	\caption{Ablation Study Results with Model Parameter Counts}
-	\label{tab: Effects of the Model Architecture}
-	\begin{tabular*}{\tblwidth}{CCCC}
-		\toprule
-		Model Configuration & $Acc(\%)$ & Sex & Length(min)\\ 
-		\midrule
-		Healthy&$24$&Male&27.0\\
-		Healthy&$26\pm 2$&Female&54.0\\
-		HF&$72.6\pm12.0$&Male&34.8\\
-		HF&$77.9\pm 11.1$&Female&36.8\\
-		\midrule
-	\end{tabular*}
+    \centering
+    \caption{Ablation Study Results}
+    \label{table:ablation_results}
+    \begin{tabularx}{\textwidth}{L|CCCCC}
+    \toprule
+    Ablation Condition & Params (M) & FLOPs (M) & MACs (M) & Accuracy (\%) \\ 
+    \midrule
+    DenseHF-Net            &0.33& 61.29& 30.64& 93.47 \\
+    Without wavelet-denoising  &0.33& 61.29& 30.64& 93.26 \\
+    Feature input: Mel-spectrum &0.33& 61.29& 30.64& 90.77\\
+   Compression rate: 30\%& 0.39& 67.01& 33.50&93.87\\
+   Compression rate: 50\%& 0.47& 74.13 & 37.06&93.91\\
+   Compression rate: 70\%& 0.57& 82.42 & 41.21&94.01\\
+   Without compression &0.78& 98.84& 49.42& 95.10\\
+    Blocks numbers: 6 12 24 16  & 0.99    & 132.64     & 66.32     & 94.35  \\
+    Blocks numbers: 8 16 32 16  & 1.47    & 201.76      & 100.88    & 94.74  \\
+    \bottomrule
+    \end{tabularx}
 \end{table*}
-
-    
-\subsubsection{Effects of Preprocessing and Feature Extraction}
-aaa

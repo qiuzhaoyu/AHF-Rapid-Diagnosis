@@ -1,4 +1,4 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{14}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -11,5 +11,74 @@
 \providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Son and Kwon(2018)}]{son2018classification}
+\bibinfo{author}{G.-Y. Son}, \bibinfo{author}{S.~Kwon},
+\newblock \bibinfo{title}{Classification of heart sound signal using multiple features},
+\newblock \bibinfo{journal}{Applied Sciences} \bibinfo{volume}{8} (\bibinfo{year}{2018}) \bibinfo{pages}{2344}.
+%Type = Article
+\bibitem[{Zhao et~al.(2006)Zhao, Liu, Ma, and Zhou}]{2006Research}
+\bibinfo{author}{J.~Y. Zhao}, \bibinfo{author}{H.~Y. Liu}, \bibinfo{author}{H.~S. Ma}, \bibinfo{author}{H.~D. Zhou},
+\newblock \bibinfo{title}{Research of the approach for the fetal heart sound signal's extracting based on coif5 wavelet transform},
+\newblock \bibinfo{journal}{Chinese Journal of Biomedical Engineering}  (\bibinfo{year}{2006}).
+%Type = Article
+\bibitem[{Chen et~al.(2010)Chen, Han, and Xing}]{2010Research}
+\bibinfo{author}{T.~Chen}, \bibinfo{author}{L.~Han}, \bibinfo{author}{S.~Xing},
+\newblock \bibinfo{title}{Research of de-noising method of heart sound signals based on wavelet transform},
+\newblock \bibinfo{journal}{Computer Simulation} \bibinfo{volume}{27} (\bibinfo{year}{2010}) \bibinfo{pages}{401--405}.
+%Type = Article
+\bibitem[{Cheng and Zhang(2014)}]{cheng2014denoising}
+\bibinfo{author}{X.~Cheng}, \bibinfo{author}{Z.~Zhang},
+\newblock \bibinfo{title}{Denoising method of heart sound signals based on self-construct heart sound wavelet},
+\newblock \bibinfo{journal}{Aip Advances} \bibinfo{volume}{4} (\bibinfo{year}{2014}) \bibinfo{pages}{087108}.
+%Type = Inproceedings
+\bibitem[{Wu et~al.(2010)Wu, Kim, and Bae}]{wu2010hidden}
+\bibinfo{author}{H.~Wu}, \bibinfo{author}{S.~Kim}, \bibinfo{author}{K.~Bae},
+\newblock \bibinfo{title}{Hidden markov model with heart sound signals for identification of heart diseases},
+\newblock in: \bibinfo{booktitle}{Proceedings of 20th International Congress on Acoustics (ICA), Sydney, Australia}, \bibinfo{year}{2010}, pp. \bibinfo{pages}{23--27}.
+%Type = Inproceedings
+\bibitem[{Vepa(2009)}]{vepa2009classification}
+\bibinfo{author}{J.~Vepa},
+\newblock \bibinfo{title}{Classification of heart murmurs using cepstral features and support vector machines},
+\newblock in: \bibinfo{booktitle}{2009 Annual International Conference of the IEEE Engineering in Medicine and Biology Society}, \bibinfo{organization}{IEEE}, \bibinfo{year}{2009}, pp. \bibinfo{pages}{2539--2542}.
+%Type = Inproceedings
+\bibitem[{He et~al.(2016)He, Zhang, Ren, and Sun}]{he2016deep}
+\bibinfo{author}{K.~He}, \bibinfo{author}{X.~Zhang}, \bibinfo{author}{S.~Ren}, \bibinfo{author}{J.~Sun},
+\newblock \bibinfo{title}{Deep residual learning for image recognition},
+\newblock in: \bibinfo{booktitle}{Proceedings of the IEEE conference on computer vision and pattern recognition}, \bibinfo{year}{2016}, pp. \bibinfo{pages}{770--778}.
+%Type = Article
+\bibitem[{Howard et~al.(2017)Howard, Zhu, Chen, Kalenichenko, Wang, Weyand, Andreetto, and Adam}]{howard2017mobilenets}
+\bibinfo{author}{A.~G. Howard}, \bibinfo{author}{M.~Zhu}, \bibinfo{author}{B.~Chen}, \bibinfo{author}{D.~Kalenichenko}, \bibinfo{author}{W.~Wang}, \bibinfo{author}{T.~Weyand}, \bibinfo{author}{M.~Andreetto}, \bibinfo{author}{H.~Adam},
+\newblock \bibinfo{title}{Mobilenets: Efficient convolutional neural networks for mobile vision applications},
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1704.04861}  (\bibinfo{year}{2017}).
+%Type = Inproceedings
+\bibitem[{Rubin et~al.(2016)Rubin, Abreu, Ganguli, Nelaturi, Matei, and Sricharan}]{rubin2016classifying}
+\bibinfo{author}{J.~Rubin}, \bibinfo{author}{R.~Abreu}, \bibinfo{author}{A.~Ganguli}, \bibinfo{author}{S.~Nelaturi}, \bibinfo{author}{I.~Matei}, \bibinfo{author}{K.~Sricharan},
+\newblock \bibinfo{title}{Classifying heart sound recordings using deep convolutional neural networks and mel-frequency cepstral coefficients},
+\newblock in: \bibinfo{booktitle}{2016 Computing in cardiology conference (CinC)}, \bibinfo{organization}{IEEE}, \bibinfo{year}{2016}, pp. \bibinfo{pages}{813--816}.
+%Type = Article
+\bibitem[{Arora et~al.(2021)Arora, Verma, Leekha, Lee, Choi, Gupta, and Bhatia}]{arora2021transfer}
+\bibinfo{author}{V.~Arora}, \bibinfo{author}{K.~Verma}, \bibinfo{author}{R.~S. Leekha}, \bibinfo{author}{K.~Lee}, \bibinfo{author}{C.~Choi}, \bibinfo{author}{T.~Gupta}, \bibinfo{author}{K.~Bhatia},
+\newblock \bibinfo{title}{Transfer learning model to indicate heart health status using phonocardiogram}  (\bibinfo{year}{2021}).
+%Type = Article
+\bibitem[{Li et~al.(2021)Li, Yin, Ma, Zhang, and Liu}]{li2021lightweight}
+\bibinfo{author}{T.~Li}, \bibinfo{author}{Y.~Yin}, \bibinfo{author}{K.~Ma}, \bibinfo{author}{S.~Zhang}, \bibinfo{author}{M.~Liu},
+\newblock \bibinfo{title}{Lightweight end-to-end neural network model for automatic heart sound classification},
+\newblock \bibinfo{journal}{Information} \bibinfo{volume}{12} (\bibinfo{year}{2021}) \bibinfo{pages}{54}.
+%Type = Article
+\bibitem[{Shuvo et~al.(2021)Shuvo, Ali, Swapnil, Al-Rakhami, and Gumaei}]{shuvo2021cardioxnet}
+\bibinfo{author}{S.~B. Shuvo}, \bibinfo{author}{S.~N. Ali}, \bibinfo{author}{S.~I. Swapnil}, \bibinfo{author}{M.~S. Al-Rakhami}, \bibinfo{author}{A.~Gumaei},
+\newblock \bibinfo{title}{Cardioxnet: A novel lightweight deep learning framework for cardiovascular disease classification using heart sound recordings},
+\newblock \bibinfo{journal}{IEEE Access} \bibinfo{volume}{9} (\bibinfo{year}{2021}) \bibinfo{pages}{36955--36967}.
+%Type = Inproceedings
+\bibitem[{Huang et~al.(2017)Huang, Liu, Van Der~Maaten, and Weinberger}]{huang2017densely}
+\bibinfo{author}{G.~Huang}, \bibinfo{author}{Z.~Liu}, \bibinfo{author}{L.~Van Der~Maaten}, \bibinfo{author}{K.~Q. Weinberger},
+\newblock \bibinfo{title}{Densely connected convolutional networks},
+\newblock in: \bibinfo{booktitle}{Proceedings of the IEEE conference on computer vision and pattern recognition}, \bibinfo{year}{2017}, pp. \bibinfo{pages}{4700--4708}.
+%Type = Article
+\bibitem[{Fan and Zhang(2021)}]{fan2021effects}
+\bibinfo{author}{Z.~Fan}, \bibinfo{author}{F.~Zhang},
+\newblock \bibinfo{title}{Effects of an emergency nursing pathway on the complications and clinical prognosis of patients with acute myocardial infarction},
+\newblock \bibinfo{journal}{Int J Clin Exp Med} \bibinfo{volume}{14} (\bibinfo{year}{2021}) \bibinfo{pages}{661--668}.
 
 \end{thebibliography}
