@@ -9,25 +9,44 @@
 \csgdef{mark@corau7}{1}
 \creditauthor{Conceptualization, Methodology, Writing original draft}{Shuo Wang}
 \NewLabel{cor1}{1}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Materials and Methods}{1}{section.1}\protected@file@percent }
-\newlabel{Materials and Methods}{{1}{1}{Materials and Methods}{section.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Datasets}{1}{subsection.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.1}HF auscultation datasets}{1}{subsubsection.1.1.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {Methodology of the proposed work.} (\textbf  {a}) A dataset was built in this paper, including two HF diagnostic subsets, a denoising subset, and a public subset. (\textbf  {b}) The layered architecture of the proposed DenseHF-Net contains four Dense blocks. (\textbf  {c}) Multi-region fusion auscultation and mitral valve auscultation.}}{2}{figure.caption.1}\protected@file@percent }
+\citation{virani2020heart,roth2020global,mensah2019global,boorsma2020congestion}
+\citation{roth2020global}
+\citation{sinnenberg2020acute,arrigo2020acute}
+\citation{chapman2019clinical}
+\citation{victor2012door,fan2021effects}
+\citation{fan2021effects}
+\citation{nieminen2005task}
+\citation{lewis2020bnp}
+\citation{menon2022echocardiography}
+\citation{nieminen2005task}
+\citation{johnston2007third,wynne2001clinical,boorsma2020congestion}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:introduction}{{1}{1}{Introduction}{section.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Background}{1}{subsection.1.1}\protected@file@percent }
+\citation{clifford2016classification}
+\citation{son2018classification}
+\citation{vepa2009classification}
+\citation{wu2010hidden}
+\citation{rubin2016classifying}
+\citation{arora2021transfer}
+\citation{li2021lightweight,shuvo2021cardioxnet}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Related works}{2}{subsection.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Materials and Methods}{2}{section.2}\protected@file@percent }
+\newlabel{Materials and Methods}{{2}{2}{Materials and Methods}{section.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {Methodology of the proposed work.} (\textbf  {a}) A dataset was built in this paper, including two HF diagnostic subsets, a denoising subset, and a public subset. (\textbf  {b}) The layered architecture of the proposed DenseHF-Net contains four Dense blocks. (\textbf  {c}) Multi-region fusion auscultation and mitral valve auscultation.}}{3}{figure.caption.1}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{FIG:Methodology}{{1}{2}{\textbf {Methodology of the proposed work.} (\textbf {a}) A dataset was built in this paper, including two HF diagnostic subsets, a denoising subset, and a public subset. (\textbf {b}) The layered architecture of the proposed DenseHF-Net contains four Dense blocks. (\textbf {c}) Multi-region fusion auscultation and mitral valve auscultation}{figure.caption.1}{}}
+\newlabel{FIG:Methodology}{{1}{3}{\textbf {Methodology of the proposed work.} (\textbf {a}) A dataset was built in this paper, including two HF diagnostic subsets, a denoising subset, and a public subset. (\textbf {b}) The layered architecture of the proposed DenseHF-Net contains four Dense blocks. (\textbf {c}) Multi-region fusion auscultation and mitral valve auscultation}{figure.caption.1}{}}
 \citation{son2018classification}
 \citation{2006Research}
 \citation{2010Research}
 \citation{cheng2014denoising}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.2}Denoising dataset}{3}{subsubsection.1.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.3}Yaseen public dataset}{3}{subsubsection.1.1.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Preprocessing}{3}{subsection.1.2}\protected@file@percent }
-\newlabel{eq:self}{{1}{3}{Preprocessing}{equation.1.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Feature extraction}{3}{subsection.1.3}\protected@file@percent }
-\newlabel{eq:melscale}{{2}{3}{Feature extraction}{equation.1.2}{}}
-\newlabel{eq:melbank}{{3}{3}{Feature extraction}{equation.1.3}{}}
-\newlabel{eq:melspec}{{4}{3}{Feature extraction}{equation.1.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Datasets}{4}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.1}HF auscultation datasets}{4}{subsubsection.2.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.2}Denoising dataset}{4}{subsubsection.2.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.3}Yaseen public dataset}{4}{subsubsection.2.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Preprocessing}{4}{subsection.2.2}\protected@file@percent }
+\newlabel{eq:self}{{1}{4}{Preprocessing}{equation.2.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Feature extraction}{4}{subsection.2.3}\protected@file@percent }
 \citation{wu2010hidden}
 \citation{vepa2009classification}
 \citation{he2016deep}
@@ -37,64 +56,81 @@
 \citation{he2016deep}
 \citation{howard2017mobilenets}
 \citation{fan2021effects}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Models parameter setting}}{4}{table.caption.2}\protected@file@percent }
-\newlabel{tab:Modesl Parameters Setting}{{1}{4}{Models parameter setting}{table.caption.2}{}}
-\newlabel{eq:eninge}{{5}{4}{Feature extraction}{equation.1.5}{}}
-\newlabel{eq:DCT}{{6}{4}{Feature extraction}{equation.1.6}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}DenseHF-Net}{4}{subsection.1.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.5}Auscultation strategies}{4}{subsection.1.5}\protected@file@percent }
-\newlabel{eq:Resulti}{{7}{5}{Auscultation strategies}{equation.1.7}{}}
-\newlabel{eq:Output}{{8}{5}{Auscultation strategies}{equation.1.8}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Results}{5}{section.2}\protected@file@percent }
-\newlabel{Results}{{2}{5}{Results}{section.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Datasets}{5}{subsection.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Preprocessing}{5}{subsection.2.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces The details of the dataset information.}}{5}{table.caption.3}\protected@file@percent }
-\newlabel{tab: Results, Datasets}{{2}{5}{The details of the dataset information}{table.caption.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Multi-region fusion auscultation}{5}{subsection.2.3}\protected@file@percent }
-\newlabel{eq:Acc}{{9}{5}{Multi-region fusion auscultation}{equation.2.9}{}}
-\newlabel{FIG:wavelet.a}{{2a}{6}{Choice of base and levels}{figure.caption.4}{}}
-\newlabel{sub@FIG:wavelet.a}{{a}{6}{Choice of base and levels}{figure.caption.4}{}}
-\newlabel{FIG:wavelet.b}{{2b}{6}{Choice of threshold parameters}{figure.caption.4}{}}
-\newlabel{sub@FIG:wavelet.b}{{b}{6}{Choice of threshold parameters}{figure.caption.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Wavelet denoising of short signal.} (\textbf  {a}) Best: wavelet denoising with sym8 base at 7-layer decomposition. (\textbf  {b}) Best: wavelet denoising with 20\% modulo maximum $f_{self}$.}}{6}{figure.caption.4}\protected@file@percent }
-\newlabel{FIG:wavelet}{{2}{6}{\textbf {Wavelet denoising of short signal.} (\textbf {a}) Best: wavelet denoising with sym8 base at 7-layer decomposition. (\textbf {b}) Best: wavelet denoising with 20\% modulo maximum $f_{self}$}{figure.caption.4}{}}
-\newlabel{eq:Se}{{10}{6}{Multi-region fusion auscultation}{equation.2.10}{}}
-\newlabel{eq:Sp}{{11}{6}{Multi-region fusion auscultation}{equation.2.11}{}}
-\newlabel{eq:F1}{{12}{6}{Multi-region fusion auscultation}{equation.2.12}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Mitral valve auscultation}{6}{subsection.2.4}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Classification results of HF-Diagnosis dataset and public Yassen Dataset.}}{7}{table.caption.5}\protected@file@percent }
-\newlabel{tab:HF Diagnosis 10-fold Results}{{3}{7}{Classification results of HF-Diagnosis dataset and public Yassen Dataset}{table.caption.5}{}}
-\newlabel{fig:mitral_valve_1}{{3a}{7}{Mitral valve auscultation}{figure.caption.6}{}}
-\newlabel{sub@fig:mitral_valve_1}{{a}{7}{Mitral valve auscultation}{figure.caption.6}{}}
-\newlabel{fig:mitral_valve_2}{{3b}{7}{Mitral valve auscultation}{figure.caption.6}{}}
-\newlabel{sub@fig:mitral_valve_2}{{b}{7}{Mitral valve auscultation}{figure.caption.6}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {Comparison of two auscultation strategies}}}{7}{figure.caption.6}\protected@file@percent }
-\newlabel{fig:comparison}{{3}{7}{\textbf {Comparison of two auscultation strategies}}{figure.caption.6}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Ablation Study}{7}{subsection.2.5}\protected@file@percent }
+\newlabel{eq:melscale}{{2}{5}{Feature extraction}{equation.2.2}{}}
+\newlabel{eq:melbank}{{3}{5}{Feature extraction}{equation.2.3}{}}
+\newlabel{eq:melspec}{{4}{5}{Feature extraction}{equation.2.4}{}}
+\newlabel{eq:eninge}{{5}{5}{Feature extraction}{equation.2.5}{}}
+\newlabel{eq:DCT}{{6}{5}{Feature extraction}{equation.2.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}DenseHF-Net}{5}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Auscultation strategies}{5}{subsection.2.5}\protected@file@percent }
+\newlabel{eq:Resulti}{{7}{5}{Auscultation strategies}{equation.2.7}{}}
+\newlabel{eq:Output}{{8}{5}{Auscultation strategies}{equation.2.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Models parameter setting}}{6}{table.caption.2}\protected@file@percent }
+\newlabel{tab:Modesl Parameters Setting}{{1}{6}{Models parameter setting}{table.caption.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Results}{6}{section.3}\protected@file@percent }
+\newlabel{Results}{{3}{6}{Results}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Datasets}{6}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Preprocessing}{6}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Multi-region fusion auscultation}{6}{subsection.3.3}\protected@file@percent }
+\newlabel{eq:Acc}{{9}{6}{Multi-region fusion auscultation}{equation.3.9}{}}
+\newlabel{eq:Se}{{10}{6}{Multi-region fusion auscultation}{equation.3.10}{}}
+\newlabel{eq:Sp}{{11}{6}{Multi-region fusion auscultation}{equation.3.11}{}}
+\newlabel{eq:F1}{{12}{6}{Multi-region fusion auscultation}{equation.3.12}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces The details of the dataset information.}}{7}{table.caption.3}\protected@file@percent }
+\newlabel{tab: Results, Datasets}{{2}{7}{The details of the dataset information}{table.caption.3}{}}
+\newlabel{FIG:wavelet.a}{{2a}{7}{Choice of base and levels}{figure.caption.4}{}}
+\newlabel{sub@FIG:wavelet.a}{{a}{7}{Choice of base and levels}{figure.caption.4}{}}
+\newlabel{FIG:wavelet.b}{{2b}{7}{Choice of threshold parameters}{figure.caption.4}{}}
+\newlabel{sub@FIG:wavelet.b}{{b}{7}{Choice of threshold parameters}{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Wavelet denoising of short signal.} (\textbf  {a}) Best: wavelet denoising with sym8 base at 7-layer decomposition. (\textbf  {b}) Best: wavelet denoising with 20\% modulo maximum $f_{self}$.}}{7}{figure.caption.4}\protected@file@percent }
+\newlabel{FIG:wavelet}{{2}{7}{\textbf {Wavelet denoising of short signal.} (\textbf {a}) Best: wavelet denoising with sym8 base at 7-layer decomposition. (\textbf {b}) Best: wavelet denoising with 20\% modulo maximum $f_{self}$}{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Mitral valve auscultation}{7}{subsection.3.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Classification results of HF-Diagnosis dataset and public Yassen Dataset.}}{8}{table.caption.5}\protected@file@percent }
+\newlabel{tab:HF Diagnosis 10-fold Results}{{3}{8}{Classification results of HF-Diagnosis dataset and public Yassen Dataset}{table.caption.5}{}}
+\newlabel{FIG:Average curve.a}{{3a}{8}{Mitral valve auscultation testing accuracy}{figure.caption.6}{}}
+\newlabel{sub@FIG:Average curve.a}{{a}{8}{Mitral valve auscultation testing accuracy}{figure.caption.6}{}}
+\newlabel{FIG:Average curve.b}{{3b}{8}{Mitral valve auscultation testing loss value}{figure.caption.6}{}}
+\newlabel{sub@FIG:Average curve.b}{{b}{8}{Mitral valve auscultation testing loss value}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {Average 10-fold CV history.} (\textbf  {a}) Average testing accuracy of three models. (\textbf  {b}) Average testing loss of three models (without augmentation).}}{8}{figure.caption.6}\protected@file@percent }
+\newlabel{FIG:Average curve}{{3}{8}{\textbf {Average 10-fold CV history.} (\textbf {a}) Average testing accuracy of three models. (\textbf {b}) Average testing loss of three models (without augmentation)}{figure.caption.6}{}}
+\newlabel{fig:mitral_valve_2}{{4a}{9}{Multi-region fusion auscultation}{figure.caption.7}{}}
+\newlabel{sub@fig:mitral_valve_2}{{a}{9}{Multi-region fusion auscultation}{figure.caption.7}{}}
+\newlabel{fig:mitral_valve_1}{{4b}{9}{Mitral valve auscultation}{figure.caption.7}{}}
+\newlabel{sub@fig:mitral_valve_1}{{b}{9}{Mitral valve auscultation}{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {Comparison of two auscultation strategies}}}{9}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:comparison}{{4}{9}{\textbf {Comparison of two auscultation strategies}}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Ablation Study}{9}{subsection.3.5}\protected@file@percent }
 \bibstyle{model1-num-names}
 \bibdata{References.bib}
-\bibcite{son2018classification}{{1}{2018}{{Son and Kwon}}{{}}}
-\bibcite{2006Research}{{2}{2006}{{Zhao et~al.}}{{Zhao, Liu, Ma, and Zhou}}}
-\bibcite{2010Research}{{3}{2010}{{Chen et~al.}}{{Chen, Han, and Xing}}}
-\bibcite{cheng2014denoising}{{4}{2014}{{Cheng and Zhang}}{{}}}
-\bibcite{wu2010hidden}{{5}{2010}{{Wu et~al.}}{{Wu, Kim, and Bae}}}
-\bibcite{vepa2009classification}{{6}{2009}{{Vepa}}{{}}}
-\bibcite{he2016deep}{{7}{2016}{{He et~al.}}{{He, Zhang, Ren, and Sun}}}
-\bibcite{howard2017mobilenets}{{8}{2017}{{Howard et~al.}}{{Howard, Zhu, Chen, Kalenichenko, Wang, Weyand, Andreetto, and Adam}}}
-\bibcite{rubin2016classifying}{{9}{2016}{{Rubin et~al.}}{{Rubin, Abreu, Ganguli, Nelaturi, Matei, and Sricharan}}}
-\newlabel{FIG:Average curve.a}{{4a}{8}{Mitral valve auscultation testing accuracy}{figure.caption.7}{}}
-\newlabel{sub@FIG:Average curve.a}{{a}{8}{Mitral valve auscultation testing accuracy}{figure.caption.7}{}}
-\newlabel{FIG:Average curve.b}{{4b}{8}{Mitral valve auscultation testing loss value}{figure.caption.7}{}}
-\newlabel{sub@FIG:Average curve.b}{{b}{8}{Mitral valve auscultation testing loss value}{figure.caption.7}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {Average 10-fold CV history.} (\textbf  {a}) Average testing accuracy of three models. (\textbf  {b}) Average testing loss of three models (without augmentation).}}{8}{figure.caption.7}\protected@file@percent }
-\newlabel{FIG:Average curve}{{4}{8}{\textbf {Average 10-fold CV history.} (\textbf {a}) Average testing accuracy of three models. (\textbf {b}) Average testing loss of three models (without augmentation)}{figure.caption.7}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Ablation Study Results}}{8}{table.caption.8}\protected@file@percent }
-\newlabel{table:ablation_results}{{4}{8}{Ablation Study Results}{table.caption.8}{}}
-\bibcite{arora2021transfer}{{10}{2021}{{Arora et~al.}}{{Arora, Verma, Leekha, Lee, Choi, Gupta, and Bhatia}}}
-\bibcite{li2021lightweight}{{11}{2021}{{Li et~al.}}{{Li, Yin, Ma, Zhang, and Liu}}}
-\bibcite{shuvo2021cardioxnet}{{12}{2021}{{Shuvo et~al.}}{{Shuvo, Ali, Swapnil, Al-Rakhami, and Gumaei}}}
-\bibcite{huang2017densely}{{13}{2017}{{Huang et~al.}}{{Huang, Liu, Van Der~Maaten, and Weinberger}}}
-\bibcite{fan2021effects}{{14}{2021}{{Fan and Zhang}}{{}}}
-\csxdef{lastpage}{9}
-\gdef \@abspage@last{10}
+\bibcite{virani2020heart}{{1}{2020}{{Virani et~al.}}{{Virani, Alonso, Benjamin, Bittencourt, Callaway, Carson, Chamberlain, Chang, Cheng, Delling et~al.}}}
+\bibcite{roth2020global}{{2}{2020}{{Roth et~al.}}{{Roth, Mensah, Johnson, Addolorato, Ammirati, Baddour, Barengo, Beaton, Benjamin, Benziger et~al.}}}
+\bibcite{mensah2019global}{{3}{2019}{{Mensah et~al.}}{{Mensah, Roth, and Fuster}}}
+\bibcite{boorsma2020congestion}{{4}{2020}{{Boorsma et~al.}}{{Boorsma, Ter~Maaten, Damman, Dinh, Gustafsson, Goldsmith, Burkhoff, Zannad, Udelson, and Voors}}}
+\bibcite{sinnenberg2020acute}{{5}{2020}{{Sinnenberg and Givertz}}{{}}}
+\bibcite{arrigo2020acute}{{6}{2020}{{Arrigo et~al.}}{{Arrigo, Jessup, Mullens, Reza, Shah, Sliwa, and Mebazaa}}}
+\bibcite{chapman2019clinical}{{7}{2019}{{Chapman et~al.}}{{Chapman, DeVore, Mentz, and Metra}}}
+\bibcite{victor2012door}{{8}{2012}{{Victor et~al.}}{{Victor, Gnanaraj, Vijayakumar, Pattabiram, and Mullasari}}}
+\bibcite{fan2021effects}{{9}{2021}{{Fan and Zhang}}{{}}}
+\bibcite{nieminen2005task}{{10}{2005}{{Nieminen et~al.}}{{Nieminen, B{\"o}hm, Cowie, Drexler, Filippatos, Jondeau, Hasin et~al.}}}
+\bibcite{lewis2020bnp}{{11}{2020}{{Lewis et~al.}}{{Lewis, Durrington, Condliffe, and Kiely}}}
+\bibcite{menon2022echocardiography}{{12}{2022}{{Menon et~al.}}{{Menon, Kapoor, and Choudhury}}}
+\bibcite{johnston2007third}{{13}{2007}{{Johnston et~al.}}{{Johnston, Collins, and Storrow}}}
+\bibcite{wynne2001clinical}{{14}{2001}{{Wynne}}{{}}}
+\bibcite{clifford2016classification}{{15}{2016}{{Clifford et~al.}}{{Clifford, Liu, Moody, Springer, Silva, Li, and Mark}}}
+\bibcite{son2018classification}{{16}{2018}{{Son and Kwon}}{{}}}
+\bibcite{vepa2009classification}{{17}{2009}{{Vepa}}{{}}}
+\bibcite{wu2010hidden}{{18}{2010}{{Wu et~al.}}{{Wu, Kim, and Bae}}}
+\bibcite{rubin2016classifying}{{19}{2016}{{Rubin et~al.}}{{Rubin, Abreu, Ganguli, Nelaturi, Matei, and Sricharan}}}
+\bibcite{arora2021transfer}{{20}{2021}{{Arora et~al.}}{{Arora, Verma, Leekha, Lee, Choi, Gupta, and Bhatia}}}
+\bibcite{li2021lightweight}{{21}{2021}{{Li et~al.}}{{Li, Yin, Ma, Zhang, and Liu}}}
+\bibcite{shuvo2021cardioxnet}{{22}{2021}{{Shuvo et~al.}}{{Shuvo, Ali, Swapnil, Al-Rakhami, and Gumaei}}}
+\bibcite{2006Research}{{23}{2006}{{Zhao et~al.}}{{Zhao, Liu, Ma, and Zhou}}}
+\bibcite{2010Research}{{24}{2010}{{Chen et~al.}}{{Chen, Han, and Xing}}}
+\bibcite{cheng2014denoising}{{25}{2014}{{Cheng and Zhang}}{{}}}
+\bibcite{he2016deep}{{26}{2016}{{He et~al.}}{{He, Zhang, Ren, and Sun}}}
+\bibcite{howard2017mobilenets}{{27}{2017}{{Howard et~al.}}{{Howard, Zhu, Chen, Kalenichenko, Wang, Weyand, Andreetto, and Adam}}}
+\bibcite{huang2017densely}{{28}{2017}{{Huang et~al.}}{{Huang, Liu, Van Der~Maaten, and Weinberger}}}
+\csxdef{lastpage}{10}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Ablation Study Results}}{10}{table.caption.8}\protected@file@percent }
+\newlabel{table:ablation_results}{{4}{10}{Ablation Study Results}{table.caption.8}{}}
+\gdef \@abspage@last{11}

@@ -73,7 +73,7 @@ Firstly, we conduct an analysis to determine the average SNR under various combi
 Secondly, we further investigate the average SNR across different shrinkage functions and threshold values while maintaining the sym8 base at the 7-layer decomposition level. Our findings indicate that the use of the 20\% modulo maximum with the $f_{self}$ threshold function emerged as the optimal denoising method.
 
 Finally, the average SNR of the denoising algorithm proposed in this paper is 7.8 dB.
-\begin{figure}[htbp]
+\begin{figure}
 	\centering
 	\begin{subfigure}{1\linewidth}
 		\centering
@@ -219,73 +219,51 @@ The quality of models refers to Eq.\ref{eq:Acc}: Accuracy (Acc), Eq.\ref{eq:Se}:
   F1-Score= 2\times\frac{Se\times Sp}{Se+Sp} 
 \end{split}
 \label{eq:F1}
-\end{equation}
-For multi-region fusion auscultation, the average accuracies are 99.35\%, 98.71\%, and 99.14\%, respectively. In terms of average sensitivity, these models achieve 99.08\%, 99.09\%, and 100.00\%, respectively. Furthermore, the average specificity for these models is measured at 99.75\%, 98.10\%, and 97.95\%, respectively. The average F1-Scores are 99.42\%, 98.59\%, and 98.97\%, respectively.
+\end{equation}\par
 
-Tab.\ref{tab:HF Diagnosis 10-fold Results} also presents the results obtained from the Yaseen dataset. DenseHF-Net, ResNet-18, and MobileNetV1-28 typically reached convergence around 50 epochs. The AS diagnosis exhibits the best performance, with sensitivity and specificity exceeding 82\% across all three models. For MS and MR, all three models achieve correct diagnoses, with sensitivity and specificity exceeding 87\% in both ResNet-18 and MobileNetV1-28. However, MVP diagnosis by DenseHF-Net yields suboptimal results, with a specificity of only 30\% and an F1-Score of only 45.88\%.
+Tab.\ref{tab:HF Diagnosis 10-fold Results} presents the classification results on the HF-Diagnosis dataset and the public Yassen dataset, comparing the performance of three models: DenseHF-Net, ResNet-18, and MobileNetV1-28. 
 
-\begin{table*}[htbp]
-\centering
-\caption{Classification results of HF-Diagnosis dataset and public Yassen Dataset.}
-\label{tab:HF Diagnosis 10-fold Results}
-\begin{tabular*}{\tblwidth}{LCCLCCLCC}
-\toprule
-\multicolumn{9}{c}{\textbf{Multi-region fusion auscultation results}} \\
-\textbf{DenseHF-Net(ours)}&\multicolumn{2}{c|}{$Average\pm sd$}&ResNet-18&\multicolumn{2}{c|}{$Average\pm sd$}&MobileNetV1-28&\multicolumn{2}{c}{$Average\pm sd$}\\
-\hline
-$Acc(\%)$&\multicolumn{2}{c|}{$99.25\pm0.71$}&$Acc(\%)$&\multicolumn{2}{c|}{$98.71\pm1.26$}&$Acc(\%)$&\multicolumn{2}{c}{$99.14\pm0.65$}\\
-$Se(\%)$&\multicolumn{2}{c|}{$98.97\pm1.22$}&$Se(\%)$&\multicolumn{2}{c|}{$99.09\pm0.92$}&$Se(\%)$&\multicolumn{2}{c}{$100.00\pm0.00$}\\
-$Sp(\%)$&\multicolumn{2}{c|}{$99.44\pm0.75$}&$Sp(\%)$&\multicolumn{2}{c|}{$98.10\pm2.68$}&$Sp(\%)$&\multicolumn{2}{c}{$97.95\pm1.54$}\\
-$F1-Score(\%)$&\multicolumn{2}{c|}{$99.10\pm0.64$}&$F1-Score(\%)$&\multicolumn{2}{c|}{$98.59\pm1.49$}&$F1-Score(\%)$&\multicolumn{2}{c}{$98.97\pm0.78$}\\
-\end{tabular*}
-\begin{tabular*}{\tblwidth}{LCCLCCLCC}
-        \multicolumn{9}{c}{\textbf{Mitral valve auscultation results}} \\
-\textbf{DenseHF-Net(ours)}&\multicolumn{2}{c|}{$Average\pm sd$}&ResNet-18&\multicolumn{2}{c|}{$Average\pm sd$}&MobileNetV1-28&\multicolumn{2}{c}{$Average\pm sd$}\\
-\hline
-$Acc(\%)$&\multicolumn{2}{c|}{$92.60\pm1.11$}&$Acc(\%)$&\multicolumn{2}{c|}{$91.33\pm2.48$}&$Acc(\%)$&\multicolumn{2}{c}{$90.73\pm1.80$}\\
-$Se(\%)$&\multicolumn{2}{c|}{$92.68\pm0.88$}&$Se(\%)$&\multicolumn{2}{c|}{$92.32\pm2.59$}&$Se(\%)$&\multicolumn{2}{c}{$90.68\pm2.49$}\\
-$Sp(\%)$&\multicolumn{2}{c|}{$92.53\pm2.08$}&$Sp(\%)$&\multicolumn{2}{c|}{$90.20\pm4.49$}&$Sp(\%)$&\multicolumn{2}{c}{$90.80\pm2.97$}\\
-$F1-Score(\%)$&\multicolumn{2}{c|}{$92.01\pm2.15$}&$F1-Score(\%)$&\multicolumn{2}{c|}{$91.17\pm2.58$}&$F1-Score(\%)$&\multicolumn{2}{c}{$90.69\pm1.75$}\\
-\end{tabular*}
-\begin{tabular*}{\tblwidth}{l|CCCCCCCCCCCC}
-        \multicolumn{13}{c}{\textbf{Yaseen dataset results}} \\
-        \multicolumn{1}{c}{}&\multicolumn{4}{c}{\textbf{DenseHF-Net(ours)}}&\multicolumn{4}{c}{ResNet-18}& \multicolumn{4}{c}{MobileNetV1-28} \\
-        \cmidrule{2-5}\cmidrule{6-9}\cmidrule{10-13}
-        \multicolumn{1}{c}{}&AS&MR&MS&MVP&AS&MR&MS&MVP&AS&MR&MS&MVP\\
-        \hline
-        $Acc(\%)$&91.25&58.75&75.00&63.75&92.50&88.75&95.00&83.75&82.50&92.50&85.00&88.75\\
-        $Se(\%)$&	90.00&		97.50&	75.00&	97.50&95.00&	80.00&	90.00&		80.00&	87.50&	87.50&			87.50&	87.50\\
-        $Sp(\%)$&	92.50&		20.00&	75.00&	30.00&90.00&	97.50&	100.00&		87.50&	77.50&	97.50&			82.50&	90.00\\
-        $F1-Score(\%)$&	91.23&		33.19&	75.00&	45.88&92.43&	87.89&	94.74&		83.58&	82.20&	92.23&			84.93&	88.73\\
-        \bottomrule
-\end{tabular*}
-\end{table*}
-
-\subsection{Mitral valve auscultation}
-
-\begin{figure*}[htbp]
+\begin{table*}
     \centering
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{./figs/results/Confusion Matrix 1.png}
-        \caption{Mitral valve auscultation}
-        \label{fig:mitral_valve_1}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{./figs/results/Confusion Matrix 2.png}
-        \caption{Mitral valve auscultation}
-        \label{fig:mitral_valve_2}
-    \end{subfigure}
-    \caption{\textbf{Comparison of two auscultation strategies}}
-    \label{fig:comparison}
-\end{figure*}
-
-
+    \caption{Classification results of HF-Diagnosis dataset and public Yassen Dataset.}
+    \label{tab:HF Diagnosis 10-fold Results}
+    \begin{tabular*}{\tblwidth}{LCCLCCLCC}
+    \toprule
+    \multicolumn{9}{c}{\textbf{Multi-region fusion auscultation results}} \\
+    \textbf{DenseHF-Net(ours)}&\multicolumn{2}{c|}{$Average\pm sd$}&ResNet-18&\multicolumn{2}{c|}{$Average\pm sd$}&MobileNetV1-28&\multicolumn{2}{c}{$Average\pm sd$}\\
+    \hline
+    $Acc(\%)$&\multicolumn{2}{c|}{$99.25\pm0.71$}&$Acc(\%)$&\multicolumn{2}{c|}{$98.71\pm1.26$}&$Acc(\%)$&\multicolumn{2}{c}{$99.14\pm0.65$}\\
+    $Se(\%)$&\multicolumn{2}{c|}{$98.97\pm1.22$}&$Se(\%)$&\multicolumn{2}{c|}{$99.09\pm0.92$}&$Se(\%)$&\multicolumn{2}{c}{$100.00\pm0.00$}\\
+    $Sp(\%)$&\multicolumn{2}{c|}{$99.44\pm0.75$}&$Sp(\%)$&\multicolumn{2}{c|}{$98.10\pm2.68$}&$Sp(\%)$&\multicolumn{2}{c}{$97.95\pm1.54$}\\
+    $F1-Score(\%)$&\multicolumn{2}{c|}{$99.10\pm0.64$}&$F1-Score(\%)$&\multicolumn{2}{c|}{$98.59\pm1.49$}&$F1-Score(\%)$&\multicolumn{2}{c}{$98.97\pm0.78$}\\
+    \end{tabular*}
+    \begin{tabular*}{\tblwidth}{LCCLCCLCC}
+            \multicolumn{9}{c}{\textbf{Mitral valve auscultation results}} \\
+    \textbf{DenseHF-Net(ours)}&\multicolumn{2}{c|}{$Average\pm sd$}&ResNet-18&\multicolumn{2}{c|}{$Average\pm sd$}&MobileNetV1-28&\multicolumn{2}{c}{$Average\pm sd$}\\
+    \hline
+    $Acc(\%)$&\multicolumn{2}{c|}{$92.60\pm1.11$}&$Acc(\%)$&\multicolumn{2}{c|}{$91.33\pm2.48$}&$Acc(\%)$&\multicolumn{2}{c}{$90.73\pm1.80$}\\
+    $Se(\%)$&\multicolumn{2}{c|}{$92.68\pm0.88$}&$Se(\%)$&\multicolumn{2}{c|}{$92.32\pm2.59$}&$Se(\%)$&\multicolumn{2}{c}{$90.68\pm2.49$}\\
+    $Sp(\%)$&\multicolumn{2}{c|}{$92.53\pm2.08$}&$Sp(\%)$&\multicolumn{2}{c|}{$90.20\pm4.49$}&$Sp(\%)$&\multicolumn{2}{c}{$90.80\pm2.97$}\\
+    $F1-Score(\%)$&\multicolumn{2}{c|}{$92.01\pm2.15$}&$F1-Score(\%)$&\multicolumn{2}{c|}{$91.17\pm2.58$}&$F1-Score(\%)$&\multicolumn{2}{c}{$90.69\pm1.75$}\\
+    \end{tabular*}
+    \begin{tabular*}{\tblwidth}{l|CCCCCCCCCCCC}
+            \multicolumn{13}{c}{\textbf{Yaseen dataset results}} \\
+            \multicolumn{1}{c}{}&\multicolumn{4}{c}{\textbf{DenseHF-Net(ours)}}&\multicolumn{4}{c}{ResNet-18}& \multicolumn{4}{c}{MobileNetV1-28} \\
+            \cmidrule{2-5}\cmidrule{6-9}\cmidrule{10-13}
+            \multicolumn{1}{c}{}&AS&MR&MS&MVP&AS&MR&MS&MVP&AS&MR&MS&MVP\\
+            \hline
+            $Acc(\%)$&91.25&58.75&75.00&63.75&92.50&88.75&95.00&83.75&82.50&92.50&85.00&88.75\\
+            $Se(\%)$&	90.00&		97.50&	75.00&	97.50&95.00&	80.00&	90.00&		80.00&	87.50&	87.50&			87.50&	87.50\\
+            $Sp(\%)$&	92.50&		20.00&	75.00&	30.00&90.00&	97.50&	100.00&		87.50&	77.50&	97.50&			82.50&	90.00\\
+            $F1-Score(\%)$&	91.23&		33.19&	75.00&	45.88&92.43&	87.89&	94.74&		83.58&	82.20&	92.23&			84.93&	88.73\\
+            \bottomrule
+    \end{tabular*}
+    \end{table*}
+DenseHF-Net achieves the highest accuracy (99.25\% ± 0.71\%) and specificity (99.44\% ± 0.75\%), demonstrating strong classification performance with an F1-score of 99.10\% ± 0.64\%. In comparison, ResNet-18 has an accuracy of 98.71\% ± 1.26\% with lower specificity (98.10\% ± 2.68\%), though its sensitivity is close to DenseHF-Net. MobileNetV1-28 excels in sensitivity (100.00\% ± 0.00\%) but has slightly lower specificity (97.95\% ± 1.54\%), with overall performance similar to DenseHF-Net. In summary, DenseHF-Net offers the best balance between sensitivity and specificity, making it the preferred model for HF-Diagnosis tasks.
 
 Fig.\ref{FIG:Average curve} provides a comprehensive overview of the average performance across the mitral valve auscultation dataset. Notably, ResNet-18 and MobileNetV1-28 exhibit comparable performance, while DenseHF-Net exhibits the most rapid rate of improvement. Importantly, all three models exhibit effective convergence of the loss function. It is worth highlighting that both ResNet-18 and MobileNetV1-28 demonstrate similar performance trends, with DenseHF-Net demonstrating the fastest convergence among them.
-\begin{figure*}[htbp]
+
+\begin{figure*}[h]
 	\centering
 	\begin{subfigure}{0.48\linewidth}
 		\centering
@@ -426,17 +404,38 @@ Fig.\ref{FIG:Average curve} provides a comprehensive overview of the average per
 \label{FIG:Average curve}
 \end{figure*}
 
-Tab.\ref{tab:HF Diagnosis 10-fold Results} lists the 10-fold results of HF diagnosis. DenseHF-Net, ResNet-18, and MobileNetV1-28 basically converge around 50 epochs. 
+\begin{figure*}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{./figs/results/Confusion Matrix 2.png}
+        \caption{Multi-region fusion auscultation}
+        \label{fig:mitral_valve_2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{./figs/results/Confusion Matrix 1.png}
+        \caption{Mitral valve auscultation}
+        \label{fig:mitral_valve_1}
+    \end{subfigure}
+    \caption{\textbf{Comparison of two auscultation strategies}}
+    \label{fig:comparison}
+\end{figure*}
 
-For mitral valve auscultation, the average accuracies achieved by the individual models are 93.63\%, 91.33\%, and 90.73\%, respectively. In terms of average sensitivity, these models reach 94.28\%, 92.32\%, and 90.68\%, respectively. Furthermore, the average specificity for these models is measured at 92.95\%, 90.20\%, and 90.80\%, respectively. The average F1-Scores for these models are 93.57\%, 91.17\%, and 90.69\%, respectively.
+Tab.\ref{tab:HF Diagnosis 10-fold Results} also presents the results obtained from the Yaseen dataset. DenseHF-Net, ResNet-18, and MobileNetV1-28 typically reached convergence around 50 epochs. The AS diagnosis exhibits the best performance, with sensitivity and specificity exceeding 82\% across all three models. For MS and MR, all three models achieve correct diagnoses, with sensitivity and specificity exceeding 87\% in both ResNet-18 and MobileNetV1-28. However, MVP diagnosis by DenseHF-Net yields suboptimal results, with a specificity of only 30\% and an F1-Score of only 45.88\%.
 
-When combined with DenseHF-Net and the ensemble method, the overall performance improves significantly. The resulting average accuracy, sensitivity, specificity, and F1-score are enhanced to 94.41\%, 96.11\%, 92.00\%, and 93.95\%, respectively.
 
-Fig. \ref{fig:comparison} illustrates a comparative analysis of two different auscultation strategies, as represented by the respective confusion matrices. Both strategies focus on the detection accuracy of mitral valve abnormalities. The confusion matrices in Figures \ref{fig:mitral_valve_1} and \ref{fig:mitral_valve_2} summarize the performance outcomes, including True Positives, True Negatives, False Positives, and False Negatives.
+
+
+\subsection{Mitral valve auscultation}
+For mitral valve auscultation, DenseHF-Net demonstrates the best performance with an accuracy of 92.60\% ± 1.11\%, along with a good balance between sensitivity (92.68\% ± 0.88\%) and specificity (92.53\% ± 2.08\%), as shown in Tab.\ref{tab:HF Diagnosis 10-fold Results}. In comparison, ResNet-18 has slightly lower accuracy (91.33\% ± 2.48\%), with competitive sensitivity (92.32\% ± 2.59\%) but lower specificity (90.20\% ± 4.49\%), indicating a higher rate of false positives. MobileNetV1-28 shows the lowest accuracy (90.73\% ± 1.80\%) and the least balanced performance in terms of sensitivity (90.68\% ± 2.49\%) and specificity (90.80\% ± 2.97\%).
+
+Overall, DenseHF-Net is the most effective model for mitral valve auscultation, offering superior accuracy and a better balance between sensitivity and specificity, making it the preferred choice among the three models.
+
+Fig. \ref{fig:comparison} illustrates a comparative analysis of two different auscultation strategies, as represented by the respective confusion matrices. Both strategies focus on the detection accuracy of mitral valve abnormalities. The confusion matrices in Fig. \ref{fig:mitral_valve_1} and Fig. \ref{fig:mitral_valve_2} summarize the performance outcomes, including True Positives, True Negatives, False Positives, and False Negatives.
 
 In the first strategy (Fig. \ref{fig:mitral_valve_1}), the model achieved a high sensitivity of 92.68\% and specificity of 92.53\%, with a balanced F1 score of 92.01\%. The second strategy (Fig. \ref{fig:mitral_valve_2}) demonstrated even higher accuracy, achieving a sensitivity of 98.97\% and a specificity of 99.44\%, leading to an F1 score of 99.10\%.
-
-The comparison highlights that while both strategies are effective in detecting mitral valve abnormalities, the second strategy exhibits superior performance across all metrics, particularly in minimizing false negatives and false positives. This suggests that the second strategy may be more reliable for clinical use, where accurate identification of mitral valve conditions is critical for patient outcomes.
 
 \subsection{Ablation Study}
 Table 3 presents the results of the ablation study, using Params, FLOPs, MACs, and ten-fold cross-validation accuracy as evaluation metrics. 

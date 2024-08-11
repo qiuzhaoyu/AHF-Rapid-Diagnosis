@@ -1,7 +1,7 @@
 \section{Materials and Methods}\label{Materials and Methods}
 \begin{figure*}[htbp]
     \centering
-    \includegraphics[width=0.8\linewidth]{figs/methods/all.png}
+    \includegraphics[width=0.77\linewidth]{figs/methods/all.png}
     \caption{\textbf{Methodology of the proposed work.} (\textbf{a}) A dataset was built in this paper, including two HF diagnostic subsets, a denoising subset, and a public subset. (\textbf{b}) The layered architecture of the proposed DenseHF-Net contains four Dense blocks. (\textbf{c}) Multi-region fusion auscultation and mitral valve auscultation.}
 	\label{FIG:Methodology}
 \end{figure*}
@@ -175,7 +175,7 @@ The common deep learning model architecture for heart sound diagnosis includes C
 We introduce DenseHF-Net, which is based on the CVPR 2017 Best Paper, Dense-Net \cite{huang2017densely}. 
 To achieve model lightweight, DenseHF-Net employs only four Dense Blocks: DenseBlock-1, DenseBlock-2, DenseBlock-3, and DenseBlock-4. This choice reduces the model's parameter count and computational load while still maintaining a certain level of depth and feature extraction capability. Three transition layers with small compression rates are employed simultaneously to reduce the output channel numbers of the 1x1 convolutional layers, thereby reducing the size of feature maps. Ultimately, the diagnostic results are obtained after passing through a linear layer. The parameter settings for the three models are detailed in Tab. \ref{tab:Modesl Parameters Setting}.
 
-The classic ResNet \cite{he2016deep} and MobileNet \cite{howard2017mobilenets} models are also trained for comparison with DenseHF-Net. All input features are resized to $32\times32$ to make it more convenient for mobile terminals. The parameter numbers of the three models are 3.82M, 42.61M, and 12.24M. The Memory Access Cost (MAC) of the three models are 130.89M, 556.97M, and 46.28M.
+The classic ResNet \cite{he2016deep} and MobileNet \cite{howard2017mobilenets} models are also trained for comparison with DenseHF-Net. All input features are resized to $32\times32$ to make it more convenient for mobile terminals. The parameter numbers of the three models are 0.33M, 42.61M, and 12.24M. The Memory Access Cost (MAC) of the three models are 30.64M, 556.97M, and 46.28M.
 
 % Experimental environment:
 % \begin{itemize}
