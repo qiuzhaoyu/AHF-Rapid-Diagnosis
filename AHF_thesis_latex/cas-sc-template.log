@@ -1051,4 +1051,263 @@ LaTeX Info: Command `\ddddot' is already robust on input line 32.
 Package hyperref Info: Link coloring ON on input line 32.
  (./cas-sc-template.out) (./cas-sc-template.out)
 \@outlinefile=\write4
-\openout4 = `cas-sc-
+\openout4 = `cas-sc-template.out'.
+
+ (c:/texlive/2024/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(51.4995pt, 494.50888pt, 51.4995pt)
+* v-part:(T,H,B)=(55.48286pt, 689.4103pt, 51.784pt)
+* \paperwidth=597.50787pt
+* \paperheight=796.67715pt
+* \textwidth=494.50888pt
+* \textheight=689.4103pt
+* \oddsidemargin=-20.7705pt
+* \evensidemargin=-20.7705pt
+* \topmargin=-40.78712pt
+* \headheight=12.0pt
+* \headsep=12.0pt
+* \topskip=10.0pt
+* \footskip=12.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=18.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
+
+(./sections/abstract.tex
+\verbatim@out=\write5
+\openout5 = `cas-sc-template.abs'.
+
+)
+LaTeX Font Info:    Trying to load font information for TS1+stix on input line 83.
+ (c:/texlive/2024/texmf-dist/tex/latex/stix/ts1stix.fd
+File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
+) [0
+
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc}]
+LaTeX Font Info:    Trying to load font information for LS1+stixscr on input line 92.
+ (c:/texlive/2024/texmf-dist/tex/latex/stix/ls1stixscr.fd
+File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixex on input line 92.
+ (c:/texlive/2024/texmf-dist/tex/latex/stix/ls2stixex.fd
+File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 92.
+ (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 92.
+ (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input line 92.
+ (c:/texlive/2024/texmf-dist/tex/latex/stix/ls1stixfrak.fd
+File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixbb on input line 92.
+ (c:/texlive/2024/texmf-dist/tex/latex/stix/ls1stixbb.fd
+File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixcal on input line 92.
+ (c:/texlive/2024/texmf-dist/tex/latex/stix/ls2stixcal.fd
+File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixsf on input line 92.
+ (c:/texlive/2024/texmf-dist/tex/latex/stix/ls1stixsf.fd
+File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixtt on input line 92.
+ (c:/texlive/2024/texmf-dist/tex/latex/stix/ls2stixtt.fd
+File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
+)
+Overfull \hbox (123.62721pt too wide) detected at line 92
+[]
+ []
+
+(./cas-sc-template.abs
+Underfull \hbox (badness 10000) in paragraph at lines 92--2
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+ 
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 7--92
+ 
+ []
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 92.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 92.
+
+<thumbnails/cas-email.jpeg, id=16, 225.84375pt x 225.84375pt>
+File: thumbnails/cas-email.jpeg Graphic file (type jpg)
+<use thumbnails/cas-email.jpeg>
+Package pdftex.def Info: thumbnails/cas-email.jpeg  used on input line 92.
+(pdftex.def)             Requested size: 7.99838pt x 8.0pt.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 92.
+(c:/texlive/2024/texmf-dist/tex/latex/inconsolata/t1zi4.fd
+File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 6.80005pt on input line 92.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 92.
+
+(./sections/method.tex
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 2.
+ (c:/texlive/2024/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+<figs/methods/all.png, id=17, 1635.10875pt x 2612.63579pt>
+File: figs/methods/all.png Graphic file (type png)
+<use figs/methods/all.png>
+Package pdftex.def Info: figs/methods/all.png  used on input line 4.
+(pdftex.def)             Requested size: 395.60861pt x 632.10834pt.
+
+Underfull \hbox (badness 1158) in paragraph at lines 8--9
+[]\T1/stix/m/n/10 Fig. [][]1[][] il-lus-trates the method-ol-ogy em-ployed in this
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\T1/stix/m/n/10 Next, in re-sponse to the sig-nal pro-cess-ing and
+ []
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 10--11
+\T1/stix/m/n/10 lightweight re-quire-ments for rapid AHF di-ag-no-sis, we
+ []
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 10--11
+\T1/stix/m/n/10 have de-vel-oped a wavelet de-nois-ing al-go-rithm and a
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 10--11
+\T1/stix/m/n/10 al-go-rithm specif-i-cally de-signed for short-duration heart
+ []
+
+[1
+
+{c:/texlive/2024/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <c:/texlive/2024/texmf-dist/tex/latex/els-cas-templates/thumbnails/cas-email.jpeg>] [2 <./figs/methods/all.png>]
+Underfull \hbox (badness 1052) in paragraph at lines 29--37
+\T1/stix/m/n/10 the noisy back-ground in clin-i-cal en-vi-ron-ments. Wavelet
+ []
+
+[3]
+Overfull \hbox (5.58408pt too wide) in alignment at lines 108--171
+[] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 175--177
+[]\T1/stix/m/n/10 We in-tro-duce DenseHF-Net, which is based on the
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 175--177
+\T1/stix/m/n/10 CVPR 2017 Best Pa-per, Dense-Net [[]]. To achieve
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 188--189
+\T1/stix/m/n/10 In-tel(R) Core(TM) i7-9700K CPU @ 3.60GHz; GPU:
+ []
+
+[4]) (./sections/Results.tex
+Underfull \hbox (badness 1424) in paragraph at lines 69--70
+\T1/stix/m/n/10 pub-licly ac-ces-si-ble on [][]https://github.com/jimmytju/AHF-
+ []
+
+[5]
+Underfull \hbox (badness 1400) in paragraph at lines 225--226
+\T1/stix/m/n/10 dataset. DenseHF-Net, ResNet-18, and MobileNetV1-28
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 225--226
+\T1/stix/m/n/10 and speci-ficity ex-ceed-ing 82% across all three mod-els.
+ []
+
+<./figs/results/Confusion Matrix 1.png, id=128, 323.0469pt x 321.24014pt>
+File: ./figs/results/Confusion Matrix 1.png Graphic file (type png)
+<use ./figs/results/Confusion Matrix 1.png>
+Package pdftex.def Info: ./figs/results/Confusion Matrix 1.png  used on input line 270.
+(pdftex.def)             Requested size: 222.52748pt x 221.2883pt.
+<./figs/results/Confusion Matrix 2.png, id=130, 323.0469pt x 321.24014pt>
+File: ./figs/results/Confusion Matrix 2.png Graphic file (type png)
+<use ./figs/results/Confusion Matrix 2.png>
+Package pdftex.def Info: ./figs/results/Confusion Matrix 2.png  used on input line 277.
+(pdftex.def)             Requested size: 222.52748pt x 221.2883pt.
+
+Underfull \hbox (badness 1072) in paragraph at lines 287--428
+\T1/stix/m/n/10 ex-hibit ef-fec-tive con-ver-gence of the loss func-tion. It is
+ []
+
+[6] [7 <./figs/results/Confusion Matrix 1.png> <./figs/results/Confusion Matrix 2.png>]) (./cas-sc-template.bbl
+Underfull \hbox (badness 1286) in paragraph at lines 51--55
+[]\T1/stix/m/n/8 A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang,
+ []
+
+[8]) [9
+
+] (./cas-sc-template.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+Package rerunfilecheck Info: File `cas-sc-template.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 40290 strings out of 474116
+ 875369 string characters out of 5747718
+ 1989190 words of memory out of 5000000
+ 61897 multiletter control sequences out of 15000+600000
+ 655864 words of font info for 157 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 99i,22n,131p,942b,2595s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/STIXGeneral-BoldItalic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb>
+Output written on cas-sc-template.pdf (10 pages, 3651348 bytes).
+PDF statistics:
+ 243 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+
