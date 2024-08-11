@@ -108,13 +108,13 @@ The MFCC feature design in this paper is defined as Wu et al. \cite{wu2010hidden
 \begin{tabular*}{\tblwidth}{CCC|CCC|CCC}
 \toprule
 \multicolumn{3}{c}{\textbf{DenseHF-Net (ours)}}&\multicolumn{3}{c}{\textbf{ResNet-18} \cite{he2016deep}}&\multicolumn{3}{c}{\textbf{MobileNetV1-28} \cite{howard2017mobilenets}}\\
-\multicolumn{3}{c}{\textbf{Number of parameters: }3.82M}&
+\multicolumn{3}{c}{\textbf{Number of parameters: }0.33M}&
 \multicolumn{3}{c}{\textbf{Number of parameters: }42.61M}&
 \multicolumn{3}{c}{\textbf{Number of parameters: }12.24M}\\
-\multicolumn{3}{c}{\textbf{Memory access cost: }130.89M}&
+\multicolumn{3}{c}{\textbf{Memory access cost: }30.64M}&
 \multicolumn{3}{c}{\textbf{Memory access cost: }556.97M}&
 \multicolumn{3}{c}{\textbf{Memory access cost: }46.28M}\\
-\multicolumn{3}{c}{\textbf{Forward/backward pass size: }43.49M}&
+\multicolumn{3}{c}{\textbf{Forward/backward pass size: }20.18M}&
 \multicolumn{3}{c}{\textbf{Forward/backward pass size: }13.63M}&
 \multicolumn{3}{c}{\textbf{Forward/backward pass size: }10.31M}\\
 % \cmidrule{1-3}\cmidrule{4-6}\cmidrule{7-9}
@@ -124,7 +124,7 @@ Feature Map&$\begin{bmatrix}3\times3,24\end{bmatrix}\times1$&$32\times32$&
 Feature Map&$\begin{bmatrix}3\times3,64\end{bmatrix}\times1$&$32\times32$&
 Feature Map&$\begin{bmatrix}3\times3,32\end{bmatrix}\times1$&$30\times30$\\ 
 % \cmidrule{1-3}\cmidrule{4-6}\cmidrule{7-9}
-Dense Block& $\begin{bmatrix}1\times1,48\\3\times3,12\end{bmatrix}\times6$ &$32\times32$&
+Dense Block& $\begin{bmatrix}1\times1,48\\3\times3,12\end{bmatrix}\times4$ &$32\times32$&
 Conv2\_x& $\begin{bmatrix}3\times3,64\\3\times3,64\end{bmatrix}\times2$& $32\times32$&
 Conv\_dw,pw&$\begin{bmatrix}3\times3,32\\1\times1,64\end{bmatrix}\times1$ & $30\times30$\\ 
 % \cmidrule{1-3}\cmidrule{4-6}\cmidrule{7-9}
@@ -132,7 +132,7 @@ Transition& $\begin{bmatrix}1\times1,conv\\2\times2,pool\end{bmatrix}$&$16\times
 Conv3\_x& $\begin{bmatrix}3\times3,128\\3\times3,128\end{bmatrix}\times2$& $16\times16$&
 Conv\_dw,pw&$\begin{bmatrix}3\times3,64\\1\times1,128\end{bmatrix}\times1$ & $15\times15$\\ 
 % \cmidrule{1-3}\cmidrule{4-6}\cmidrule{7-9}
-Dense Block& $\begin{bmatrix}1\times1,48\\3\times3,12\end{bmatrix}\times12$ &$16\times16$&
+Dense Block& $\begin{bmatrix}1\times1,48\\3\times3,12\end{bmatrix}\times8$ &$16\times16$&
 Conv4\_x& $\begin{bmatrix}3\times3,256\\3\times3,256\end{bmatrix}\times2$& $8\times8$&
 Conv\_dw,pw&$\begin{bmatrix}3\times3,128\\1\times1,128\end{bmatrix}\times1$ & $15\times15$\\
 % \cmidrule{1-3}\cmidrule{4-6}\cmidrule{7-9}
@@ -140,7 +140,7 @@ Transition& $\begin{bmatrix}1\times1,conv\\2\times2,pool\end{bmatrix}$&$8\times8
 Conv5\_x& $\begin{bmatrix}3\times3,512\\3\times3,512\end{bmatrix}\times2$& $4\times4$&
 Conv\_dw,pw&$\begin{bmatrix}3\times3,128\\1\times1,256\end{bmatrix}\times1$ & $8\times8$ \\ 
 % \cmidrule{1-3}\cmidrule{4-6}\cmidrule{7-9}
-Dense Block& $\begin{bmatrix}1\times1,48\\3\times3,12\end{bmatrix}\times24$ &$8\times8$&
+Dense Block& $\begin{bmatrix}1\times1,48\\3\times3,12\end{bmatrix}\times16$ &$8\times8$&
 Pooling& $4\times4$& $1\times1\times512$&
 Conv\_dw,pw&$\begin{bmatrix}3\times3,256\\1\times1,256\end{bmatrix}\times1$ & $8\times8$\\
 % \cmidrule{1-3}\cmidrule{4-6}\cmidrule{7-9}
@@ -148,7 +148,7 @@ Transition& $\begin{bmatrix}1\times1,conv\\2\times2,pool\end{bmatrix}$&$4\times4
 Linear& & $1\times2$&
 Conv\_dw,pw&$\begin{bmatrix}3\times3,256\\1\times1,512\end{bmatrix}\times1$ & $4\times4$\\ 
 % \cmidrule{1-3}\cmidrule{4-6}\cmidrule{7-9}
-Dense Block& $\begin{bmatrix}1\times1,48\\3\times3,12\end{bmatrix}\times16$ &$4\times4$&
+Dense Block& $\begin{bmatrix}1\times1,48\\3\times3,12\end{bmatrix}\times8$ &$4\times4$&
 &&&
 Conv\_dw,pw&$\begin{bmatrix}3\times3,512\\1\times1,512\end{bmatrix}\times5$ & $4\times4$\\
 % \cmidrule{1-3}\cmidrule{7-9}
