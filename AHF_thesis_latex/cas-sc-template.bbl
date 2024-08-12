@@ -1,4 +1,4 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{33}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -148,5 +148,28 @@
 \bibinfo{author}{G.~Huang}, \bibinfo{author}{Z.~Liu}, \bibinfo{author}{L.~Van Der~Maaten}, \bibinfo{author}{K.~Q. Weinberger},
 \newblock \bibinfo{title}{Densely connected convolutional networks},
 \newblock in: \bibinfo{booktitle}{Proceedings of the IEEE conference on computer vision and pattern recognition}, \bibinfo{year}{2017}, pp. \bibinfo{pages}{4700--4708}.
+%Type = Book
+\bibitem[{Taylor(2015)}]{taylor2015learning}
+\bibinfo{author}{A.~J. Taylor}, \bibinfo{title}{Learning Cardiac Auscultation: From Essentials to Expert Clinical Interpretation}, \bibinfo{publisher}{Springer}, \bibinfo{year}{2015}.
+%Type = Article
+\bibitem[{Khade et~al.(2019)Khade, Subhedar, Choudhary, Deshpande, and Kulkarni}]{khade2019system}
+\bibinfo{author}{S.~Khade}, \bibinfo{author}{A.~Subhedar}, \bibinfo{author}{K.~Choudhary}, \bibinfo{author}{T.~Deshpande}, \bibinfo{author}{U.~Kulkarni},
+\newblock \bibinfo{title}{A system to detect heart failure using deep learning techniques},
+\newblock \bibinfo{journal}{Int. Res. J. Eng. Technol.(IRJET)} \bibinfo{volume}{6} (\bibinfo{year}{2019}) \bibinfo{pages}{384--387}.
+%Type = Article
+\bibitem[{Rao et~al.(2022)Rao, Li, Ramakrishnan, Hassaine, Canoy, Cleland, Lukasiewicz, Salimi-Khorshidi, and Rahimi}]{rao2022explainable}
+\bibinfo{author}{S.~Rao}, \bibinfo{author}{Y.~Li}, \bibinfo{author}{R.~Ramakrishnan}, \bibinfo{author}{A.~Hassaine}, \bibinfo{author}{D.~Canoy}, \bibinfo{author}{J.~Cleland}, \bibinfo{author}{T.~Lukasiewicz}, \bibinfo{author}{G.~Salimi-Khorshidi}, \bibinfo{author}{K.~Rahimi},
+\newblock \bibinfo{title}{An explainable transformer-based deep learning model for the prediction of incident heart failure},
+\newblock \bibinfo{journal}{IEEE Journal of Biomedical and Health Informatics} \bibinfo{volume}{26} (\bibinfo{year}{2022}) \bibinfo{pages}{3362--3372}.
+%Type = Article
+\bibitem[{Acharya et~al.(2019)Acharya, Fujita, Oh, Hagiwara, Tan, Adam, and Tan}]{acharya2019deep}
+\bibinfo{author}{U.~R. Acharya}, \bibinfo{author}{H.~Fujita}, \bibinfo{author}{S.~L. Oh}, \bibinfo{author}{Y.~Hagiwara}, \bibinfo{author}{J.~H. Tan}, \bibinfo{author}{M.~Adam}, \bibinfo{author}{R.~S. Tan},
+\newblock \bibinfo{title}{Deep convolutional neural network for the automated diagnosis of congestive heart failure using ecg signals},
+\newblock \bibinfo{journal}{Applied Intelligence} \bibinfo{volume}{49} (\bibinfo{year}{2019}) \bibinfo{pages}{16--27}.
+%Type = Article
+\bibitem[{Matsumoto et~al.(2020)Matsumoto, Kodera, Shinohara, Ieki, Yamaguchi, Higashikuni, Kiyosue, Ito, Ando, Takimoto et~al.}]{matsumoto2020diagnosing}
+\bibinfo{author}{T.~Matsumoto}, \bibinfo{author}{S.~Kodera}, \bibinfo{author}{H.~Shinohara}, \bibinfo{author}{H.~Ieki}, \bibinfo{author}{T.~Yamaguchi}, \bibinfo{author}{Y.~Higashikuni}, \bibinfo{author}{A.~Kiyosue}, \bibinfo{author}{K.~Ito}, \bibinfo{author}{J.~Ando}, \bibinfo{author}{E.~Takimoto}, et~al.,
+\newblock \bibinfo{title}{Diagnosing heart failure from chest x-ray images using deep learning},
+\newblock \bibinfo{journal}{International Heart Journal} \bibinfo{volume}{61} (\bibinfo{year}{2020}) \bibinfo{pages}{781--786}.
 
 \end{thebibliography}
