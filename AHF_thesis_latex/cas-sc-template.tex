@@ -36,13 +36,13 @@
 \def\textpagefraction{.001}
 
 % Short title
-\shorttitle{Rapid diagnosis technology for acute heart failure based on auscultation}
+\shorttitle{Rapid auscultation techniques for acute heart failure in ambulance scenarios}
 
 % Short author
 \shortauthors{Hui et~al.}  
 
 % Main title of the paper
-\title [mode = title]{Rapid diagnosis technology for acute heart failure based on auscultation}                      
+\title [mode = title]{Rapid auscultation techniques for acute heart failure in ambulance scenarios}                      
 
 % Author
 \author[1]{Hui Yu}
@@ -80,10 +80,12 @@
 
 % Research highlights
 \begin{highlights}
-\item An auscultation dataset has been established, containing 2999  recordings from heart failure patients, each with rich annotations, and are publicly accessible on \href{https://github.com/qiuzhaoyu/AHF-Rapid-Diagnosis/Database}{https://github.com/qiuzhaoyu/AHF-Rapid-Diagnosis/Database}.
-% \item A wavelet denoising algorithm and a lightweight DenseHF-Net have been developed for short-duration auscultation, aiming at rapid diagnosis of acute heart failure.
-% \item We have introduced two auscultation strategies: multi-region fusion auscultation and mitral valve auscultation. Multi-region fusion auscultation is designed for monitoring scenes, while mitral valve auscultation is designed for rapid diagnosis in cases of heart failure emergencies.
-\end{highlights}
+    \item An auscultation dataset has been established, containing 2999 recordings from heart failure patients, each with rich annotations, and is publicly accessible on \href{https://github.com/qiuzhaoyu/AHF-Rapid-Diagnosis}{https://github.com/qiuzhaoyu/AHF-Rapid-Diagnosis}.
+    \item A DenseHF-Net model for diagnosing acute heart failure has been proposed, featuring only 0.33M parameters, making it suitable for rapid auscultation in ambulance scenarios.
+    \item A multi-region fusion auscultation strategy with an accuracy of 99.25\% has been proposed, capable of comprehensively analyzing heart sounds from the mitral valve, pulmonary valve, and aortic valve.
+    \item A mitral valve auscultation strategy has been proposed, achieving an accuracy of 92.60\% based on 15 seconds of auscultation of the mitral valve.
+    \end{highlights}
+    
 
 \begin{keywords}
 \sep Heart Sound Signal\sep Acute Heart Failure\sep Mel Frequency Cepstrum Coefficient\sep Lightweight Deep Learning Model
