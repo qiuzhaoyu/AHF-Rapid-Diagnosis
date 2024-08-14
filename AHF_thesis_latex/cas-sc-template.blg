@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: cas-sc-template.aux
+The style file: model1-num-names.bst
+Database file #1: References.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty journal in arora2021transfer
+You've used 36 entries,
+            2910 wiz_defined-function locations,
+            849 strings with 13799 characters,
+and the built_in function-call counts, 27809 in all, are:
+= -- 1938
+> -- 1597
+< -- 13
++ -- 609
+- -- 561
+* -- 3568
+:= -- 4114
+add.period$ -- 36
+call.type$ -- 36
+change.case$ -- 362
+chr.to.int$ -- 36
+cite$ -- 37
+duplicate$ -- 1743
+empty$ -- 1644
+format.name$ -- 671
+if$ -- 4973
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 426
+newline$ -- 190
+num.names$ -- 144
+pop$ -- 505
+preamble$ -- 1
+purify$ -- 363
+quote$ -- 0
+skip$ -- 470
+stack$ -- 0
+substring$ -- 1180
+swap$ -- 1612
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 321
+warning$ -- 1
+while$ -- 166
+width$ -- 0
+write$ -- 484
+(There was 1 warning)

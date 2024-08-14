@@ -105,13 +105,58 @@ Fig.\ref{FIG:mfcc.a} illustrates a representation of normal heart sounds, while 
 \caption{\textbf{Feature extraction result}. (\textbf{a}) Waveform, Mel-spectrum, MFCC of normal heart sound. (\textbf{b}) Waveform, Mel-spectrum, MFCC of unhealthy MVP heart sound.}
 \label{FIG:mfcc}
 \end{figure}
+% \subsubsection{Diagnostic performance}
+% Tab. \ref{tab:HF Diagnosis 10-fold Results} presents the diagnostic outcomes for two heart failure diagnostic datasets and the publicly available Yaseen dataset.
+
+% Previous researchers have also explored various intelligent algorithms for heart failure diagnosis or prediction, as shown in Tab. \ref{tab:Comparison}. Khade \cite{khade2019system} and Rao \cite{rao2022explainable} predicted heart failure incidence rates based on physiological parameters or medication records. Acharya \cite{acharya2019deep} and Matsumoto \cite{matsumoto2020diagnosing} examined the potential of diagnosing heart failure using ECG or X-ray images. In comparison to Khade \cite{khade2019system} and Rao \cite{rao2022explainable}, this paper offers enhanced medical diagnostic value and interpretability, along with Acharya \cite{acharya2019deep} and Matsumoto \cite{matsumoto2020diagnosing}. When compared to Acharya \cite{acharya2019deep} and Matsumoto \cite{matsumoto2020diagnosing}, this study theoretically boasts superior diagnostic speed, reduced device size, and more suitable application in ambulance settings.
+
+% Compared with previous classification research efforts \cite{vepa2009classification, wu2010hidden, rubin2016classifying, arora2021transfer, li2021lightweight, shuvo2021cardioxnet}, this study incorporates several well-established and successful methods, including wavelet denoising, MFCC feature extraction, and the use of CNNs. We address the issue of signal processing and diagnosis in rapid short-duration auscultation. However, it lacks strong generalization capabilities in diagnosing mitral regurgitation, indicating that the model still suffers from overfitting problems. 
+% Another limitation is the insufficient discussion of subtypes of AHF.
+
+% \begin{table*}[h]
+%  \caption{Comparison with other researches}
+%   \label{tab:Comparison}
+%     \centering
+%     \begin{tabularx}{\textwidth}{ccccc}
+%         \toprule
+% 		 \multicolumn{5}{c}{\textbf{Comparison with other heart failure researches}}\\
+%          \multicolumn{2}{c}{Authors} & \multicolumn{1}{c}{Dataset} & \multicolumn{1}{c}{Aim}& \multicolumn{1}{c}{Acc$(\%)$} \\
+%         \midrule
+%         \multicolumn{2}{c}{\textbf{Ours}} & \multicolumn{1}{c}{HF-Diagnosis dataset} & \multicolumn{1}{c}{HF diagnosis}& 99.25\\
+%         \multicolumn{2}{c}{Khade \cite{khade2019system}} & \multicolumn{1}{c}{Physiological parameters}& \multicolumn{1}{c}{CHF prediction}& 88.30\\
+%         \multicolumn{2}{c}{Rao \cite{rao2022explainable}} & \multicolumn{1}{c}{Medication records} & \multicolumn{1}{c}{CHF prediction}& 93.00\\
+%         \multicolumn{2}{c}{Acharya \cite{acharya2019deep}} & \multicolumn{1}{c}{ECG} & \multicolumn{1}{c}{HF diagnosis}& 98.97\\
+%         \multicolumn{2}{c}{Matsumoto \cite{matsumoto2020diagnosing}} & \multicolumn{1}{c}{X-Ray Images} & \multicolumn{1}{c}{HF diagnosis}  & 82.00\\
+%         \toprule
+% 		 \multicolumn{5}{c}{\textbf{Comparison with other heart sound researches}}\\
+%         Authors & Feature extraction & Classification method & Databases & Acc$(\%)$ \\
+%                 \midrule
+%          \textbf{Ours} & MFCC & DenseHF-Net & Multi region fusion auscultation & 99.25 \\
+%         \textbf{Ours} & MFCC & DenseHF-Net & Mitral valve auscultation & 92.60 \\
+%         Chen \cite{chen2023robust} & STFT & CNN with Attention Mechanism & PhysioNet 2016& 94.12 \\
+%         Xiang \cite{xiang2023research} & Logmel & Transfer Learning (MobileNet, Xception) &PhysioNet 2016& 90.23 \\
+%         Vepa \cite{vepa2009classification} & STFT, DWT & kNN, MLP, SVM & Normal, systolic, diastolic records& 95.2\\
+%         Vepa \cite{vepa2009classification} & STFT, DWT & kNN, MLP, SVM & Normal, systolic, diastolic records& 95.2\\
+%         Wu \cite{wu2010hidden} & MFCC & HMM & 325 cycles of 10-type& 95.08 \\
+%         Rubin \cite{rubin2016classifying} & MFCC & CNN & PhysioNet 2016& 95.2\\
+%         Arora \cite{arora2021transfer} & STFT & CNN & PhysioNet 2016& 89.04\\
+%         Li \cite{li2021lightweight} & STFT & CNN & PhysioNet 2016 & 85\\
+%         Shuvo \cite{shuvo2021cardioxnet} & Time-invariant features &CNN & Yaseen database& 99.6\\
+%         \bottomrule
+%     \end{tabularx}
+% \end{table*}
 \subsubsection{Diagnostic performance}
-Tab. \ref{tab:HF Diagnosis 10-fold Results} presents the diagnostic outcomes for two heart failure diagnostic datasets and the publicly available Yaseen dataset.
+Previous researchers have explored various intelligent algorithms for heart failure diagnosis or prediction, as shown in Tab. \ref{tab:Comparison}. For instance, Khade \cite{khade2019system} and Rao \cite{rao2022explainable} predicted heart failure incidence rates based on physiological parameters or medication records, while Acharya \cite{acharya2019deep} and Matsumoto \cite{matsumoto2020diagnosing} examined the potential of diagnosing heart failure using ECG or X-ray images. In comparison to these works, our study offers enhanced medical diagnostic value and interpretability, especially in ambulance settings, with superior diagnostic speed, reduced device size, and more suitable application.
 
-Previous researchers have also explored various intelligent algorithms for heart failure diagnosis or prediction, as shown in Tab. \ref{tab:Comparison}. Khade \cite{khade2019system} and Rao \cite{rao2022explainable} predicted heart failure incidence rates based on physiological parameters or medication records. Acharya \cite{acharya2019deep} and Matsumoto \cite{matsumoto2020diagnosing} examined the potential of diagnosing heart failure using ECG or X-ray images. In comparison to Khade \cite{khade2019system} and Rao \cite{rao2022explainable}, this paper offers enhanced medical diagnostic value and interpretability, along with Acharya \cite{acharya2019deep} and Matsumoto \cite{matsumoto2020diagnosing}. When compared to Acharya \cite{acharya2019deep} and Matsumoto \cite{matsumoto2020diagnosing}, this study theoretically boasts superior diagnostic speed, reduced device size, and more suitable application in ambulance settings.
+Moreover, when compared to previous classification research efforts \cite{vepa2009classification, wu2010hidden, rubin2016classifying, arora2021transfer, li2021lightweight, shuvo2021cardioxnet}, this study incorporates well-established methods such as wavelet denoising, MFCC feature extraction, and CNNs, addressing issues of signal processing and diagnosis in rapid short-duration auscultation. However, challenges remain in the generalization capabilities for diagnosing mitral regurgitation, with the model still showing signs of overfitting. Additionally, the study lacks a thorough discussion of AHF subtypes.
 
-Compared with previous classification research efforts \cite{vepa2009classification, wu2010hidden, rubin2016classifying, arora2021transfer, li2021lightweight, shuvo2021cardioxnet}, this study incorporates several well-established and successful methods, including wavelet denoising, MFCC feature extraction, and the use of CNNs. We address the issue of signal processing and diagnosis in rapid short-duration auscultation. However, it lacks strong generalization capabilities in diagnosing mitral regurgitation, indicating that the model still suffers from overfitting problems. 
-Another limitation is the insufficient discussion of subtypes of AHF.
+In comparison, Chen \cite{chen2023robust} employed Short-Time Fourier Transform (STFT) as a feature extraction method combined with a CNN enhanced by an Attention Mechanism, achieving an accuracy of 94.12\% on the PhysioNet 2016 dataset. The introduction of the attention mechanism significantly improved the focus on relevant heart sound signal parts, leading to more accurate classifications. However, Chen's approach, while robust, increases computational costs, making it less suitable for real-time applications in resource-constrained environments like ambulances.
+
+Xiang \cite{xiang2023research} explored Logmel features with Transfer Learning using pre-trained models such as MobileNet and Xception, achieving an accuracy of 90.23\% on the PhysioNet 2016 dataset. Though slightly underperforming in accuracy compared to Chen’s method, Xiang's approach offers better generalization and adaptability to different datasets with minimal additional training. The use of lightweight models like MobileNet is particularly promising for deployment in mobile and low-power devices, making it a suitable choice for real-time diagnostic applications.
+
+In summary, while both Chen and Xiang have made significant contributions to heart sound classification, their methods cater to different needs: Chen's approach excels in accuracy through an attention-enhanced CNN, albeit with higher computational intensity, while Xiang's method offers a balance between performance and efficiency, particularly suitable for mobile and real-time applications.
+
+
 
 \begin{table*}[h]
  \caption{Comparison with other researches}
@@ -119,25 +164,28 @@ Another limitation is the insufficient discussion of subtypes of AHF.
     \centering
     \begin{tabularx}{\textwidth}{ccccc}
         \toprule
-		 \multicolumn{5}{c}{\textbf{Comparison with other heart failure researches}}\\
-         \multicolumn{2}{c}{Authors} & \multicolumn{1}{c}{Dataset} & \multicolumn{1}{c}{Aim}& \multicolumn{1}{c}{Acc$(\%)$} \\
+        \multicolumn{5}{c}{\textbf{Comparison with other heart failure researches}}\\
+        \multicolumn{2}{c}{Authors} & \multicolumn{1}{c}{Dataset} & \multicolumn{1}{c}{Aim} & \multicolumn{1}{c}{Acc$(\%)$} \\
         \midrule
-        \multicolumn{2}{c}{\textbf{Ours}} & \multicolumn{1}{c}{HF-Diagnosis dataset} & \multicolumn{1}{c}{HF diagnosis}& 94.41\\
-        \multicolumn{2}{c}{Khade \cite{khade2019system}} & \multicolumn{1}{c}{Physiological parameters}& \multicolumn{1}{c}{CHF prediction}& 88.30\\
-        \multicolumn{2}{c}{Rao \cite{rao2022explainable}} & \multicolumn{1}{c}{Medication records} & \multicolumn{1}{c}{CHF prediction}& 93.00\\
-        \multicolumn{2}{c}{Acharya \cite{acharya2019deep}} & \multicolumn{1}{c}{ECG} & \multicolumn{1}{c}{HF diagnosis}& 98.97\\
-        \multicolumn{2}{c}{Matsumoto \cite{matsumoto2020diagnosing}} & \multicolumn{1}{c}{X-Ray Images} & \multicolumn{1}{c}{HF diagnosis}  & 82.00\\
-        \toprule
-		 \multicolumn{5}{c}{\textbf{Comparison with other heart sound researches}}\\
+        \multicolumn{2}{c}{\textbf{Ours}} & \multicolumn{1}{c}{HF-Diagnosis dataset} & \multicolumn{1}{c}{HF diagnosis} & 99.25 \\
+        \multicolumn{2}{c}{Khade \cite{khade2019system}} & \multicolumn{1}{c}{Physiological parameters} & \multicolumn{1}{c}{CHF prediction} & 88.30 \\
+        \multicolumn{2}{c}{Rao \cite{rao2022explainable}} & \multicolumn{1}{c}{Medication records} & \multicolumn{1}{c}{CHF prediction} & 93.00 \\
+        \multicolumn{2}{c}{Acharya \cite{acharya2019deep}} & \multicolumn{1}{c}{ECG} & \multicolumn{1}{c}{HF diagnosis} & 98.97 \\
+        \multicolumn{2}{c}{Matsumoto \cite{matsumoto2020diagnosing}} & \multicolumn{1}{c}{X-Ray Images} & \multicolumn{1}{c}{HF diagnosis} & 82.00 \\
+        \midrule
+        \multicolumn{5}{c}{\textbf{Comparison with other heart sound researches}}\\
         Authors & Feature extraction & Classification method & Databases & Acc$(\%)$ \\
-                \midrule
-        \textbf{Ours} & MFCC & DenseHF-Net & Mitral valve auscultation dataset & 94.41 \\
-        Vepa \cite{vepa2009classification} & STFT, DWT & kNN, MLP, SVM & Normal, systolic, diastolic records& 95.2\\
-        Wu \cite{wu2010hidden} & MFCC & HMM & 325 cycles of 10-type& 95.08 \\
-        Rubin \cite{rubin2016classifying} & MFCC & CNN & PhysioNet 2016& 95.2\\
-        Arora \cite{arora2021transfer} & STFT & CNN & PhysioNet 2016& 89.04\\
-        Li \cite{li2021lightweight} & STFT & CNN & PhysioNet 2016 & 85\\
-        Shuvo \cite{shuvo2021cardioxnet} & Time-invariant features &CNN & Yaseen database& 99.6\\
+        \midrule
+        \textbf{Ours} & MFCC & DenseHF-Net & Multi region fusion auscultation & 99.25 \\
+        \textbf{Ours} & MFCC & DenseHF-Net & Mitral valve auscultation & 92.60 \\
+        Chen \cite{chen2023robust} & STFT & CNN with Attention Mechanism & PhysioNet 2016 & 94.12 \\
+        Xiang \cite{xiang2023research} & Logmel & Transfer Learning (MobileNet, Xception) & PhysioNet 2016 & 90.23 \\
+        Vepa \cite{vepa2009classification} & STFT, DWT & kNN, MLP, SVM & Normal, systolic, diastolic records & 95.20 \\
+        Wu \cite{wu2010hidden} & MFCC & HMM & 325 cycles of 10-type & 95.08 \\
+        Rubin \cite{rubin2016classifying} & MFCC & CNN & PhysioNet 2016 & 95.20 \\
+        Arora \cite{arora2021transfer} & STFT & CNN & PhysioNet 2016 & 89.04 \\
+        Li \cite{li2021lightweight} & STFT & CNN & PhysioNet 2016 & 85.00 \\
+        Shuvo \cite{shuvo2021cardioxnet} & Time-invariant features & CNN & Yaseen database & 99.60 \\
         \bottomrule
     \end{tabularx}
 \end{table*}

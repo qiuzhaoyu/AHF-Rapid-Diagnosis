@@ -28,8 +28,9 @@
 \citation{vepa2009classification}
 \citation{wu2010hidden}
 \citation{rubin2016classifying}
-\citation{arora2021transfer}
+\citation{arora2021transfer,xiang2023research}
 \citation{li2021lightweight,shuvo2021cardioxnet}
+\citation{chen2023robust}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Related works}{2}{subsection.1.2}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {Methodology of the proposed work.} (\textbf  {a}) A dataset was built in this paper, including two HF diagnostic subsets, a denoising subset, and a public subset. (\textbf  {b}) The layered architecture of the proposed DenseHF-Net contains four Dense blocks. (\textbf  {c}) Multi-region fusion auscultation and mitral valve auscultation.}}{3}{figure.caption.1}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
@@ -136,17 +137,15 @@
 \citation{rao2022explainable}
 \citation{acharya2019deep}
 \citation{matsumoto2020diagnosing}
-\citation{khade2019system}
-\citation{rao2022explainable}
-\citation{acharya2019deep}
-\citation{matsumoto2020diagnosing}
-\citation{acharya2019deep}
-\citation{matsumoto2020diagnosing}
 \citation{vepa2009classification,wu2010hidden,rubin2016classifying,arora2021transfer,li2021lightweight,shuvo2021cardioxnet}
+\citation{chen2023robust}
+\citation{xiang2023research}
 \citation{khade2019system}
 \citation{rao2022explainable}
 \citation{acharya2019deep}
 \citation{matsumoto2020diagnosing}
+\citation{chen2023robust}
+\citation{xiang2023research}
 \citation{vepa2009classification}
 \citation{wu2010hidden}
 \citation{rubin2016classifying}
@@ -160,6 +159,15 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces \textbf  {Feature extraction result}. (\textbf  {a}) Waveform, Mel-spectrum, MFCC of normal heart sound. (\textbf  {b}) Waveform, Mel-spectrum, MFCC of unhealthy MVP heart sound.}}{12}{figure.caption.11}\protected@file@percent }
 \newlabel{FIG:mfcc}{{7}{12}{\textbf {Feature extraction result}. (\textbf {a}) Waveform, Mel-spectrum, MFCC of normal heart sound. (\textbf {b}) Waveform, Mel-spectrum, MFCC of unhealthy MVP heart sound}{figure.caption.11}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2}Diagnostic performance}{12}{subsubsection.4.3.2}\protected@file@percent }
+\citation{2022Audicor}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Comparison with other researches}}{13}{table.caption.12}\protected@file@percent }
+\newlabel{tab:Comparison}{{5}{13}{Comparison with other researches}{table.caption.12}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{13}{section.5}\protected@file@percent }
+\newlabel{Conclusion}{{5}{13}{Conclusion}{section.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Data and code availability}{13}{section.6}\protected@file@percent }
+\newlabel{Data and code availability}{{6}{13}{Data and code availability}{section.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Funding}{13}{section.7}\protected@file@percent }
+\newlabel{Funding}{{7}{13}{Funding}{section.7}{}}
 \bibstyle{model1-num-names}
 \bibdata{References.bib}
 \bibcite{virani2020heart}{{1}{2020}{{Virani et~al.}}{{Virani, Alonso, Benjamin, Bittencourt, Callaway, Carson, Chamberlain, Chang, Cheng, Delling et~al.}}}
@@ -175,14 +183,6 @@
 \bibcite{lewis2020bnp}{{11}{2020}{{Lewis et~al.}}{{Lewis, Durrington, Condliffe, and Kiely}}}
 \bibcite{menon2022echocardiography}{{12}{2022}{{Menon et~al.}}{{Menon, Kapoor, and Choudhury}}}
 \bibcite{johnston2007third}{{13}{2007}{{Johnston et~al.}}{{Johnston, Collins, and Storrow}}}
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Comparison with other researches}}{13}{table.caption.12}\protected@file@percent }
-\newlabel{tab:Comparison}{{5}{13}{Comparison with other researches}{table.caption.12}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{13}{section.5}\protected@file@percent }
-\newlabel{Conclusion}{{5}{13}{Conclusion}{section.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Data and code availability}{13}{section.6}\protected@file@percent }
-\newlabel{Data and code availability}{{6}{13}{Data and code availability}{section.6}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Funding}{13}{section.7}\protected@file@percent }
-\newlabel{Funding}{{7}{13}{Funding}{section.7}{}}
 \bibcite{wynne2001clinical}{{14}{2001}{{Wynne}}{{}}}
 \bibcite{clifford2016classification}{{15}{2016}{{Clifford et~al.}}{{Clifford, Liu, Moody, Springer, Silva, Li, and Mark}}}
 \bibcite{son2018classification}{{16}{2018}{{Son and Kwon}}{{}}}
@@ -190,18 +190,21 @@
 \bibcite{wu2010hidden}{{18}{2010}{{Wu et~al.}}{{Wu, Kim, and Bae}}}
 \bibcite{rubin2016classifying}{{19}{2016}{{Rubin et~al.}}{{Rubin, Abreu, Ganguli, Nelaturi, Matei, and Sricharan}}}
 \bibcite{arora2021transfer}{{20}{2021}{{Arora et~al.}}{{Arora, Verma, Leekha, Lee, Choi, Gupta, and Bhatia}}}
-\bibcite{li2021lightweight}{{21}{2021}{{Li et~al.}}{{Li, Yin, Ma, Zhang, and Liu}}}
-\bibcite{shuvo2021cardioxnet}{{22}{2021}{{Shuvo et~al.}}{{Shuvo, Ali, Swapnil, Al-Rakhami, and Gumaei}}}
-\bibcite{2006Research}{{23}{2006}{{Zhao et~al.}}{{Zhao, Liu, Ma, and Zhou}}}
-\bibcite{2010Research}{{24}{2010}{{Chen et~al.}}{{Chen, Han, and Xing}}}
-\bibcite{cheng2014denoising}{{25}{2014}{{Cheng and Zhang}}{{}}}
-\bibcite{he2016deep}{{26}{2016}{{He et~al.}}{{He, Zhang, Ren, and Sun}}}
-\bibcite{howard2017mobilenets}{{27}{2017}{{Howard et~al.}}{{Howard, Zhu, Chen, Kalenichenko, Wang, Weyand, Andreetto, and Adam}}}
-\bibcite{huang2017densely}{{28}{2017}{{Huang et~al.}}{{Huang, Liu, Van Der~Maaten, and Weinberger}}}
-\bibcite{taylor2015learning}{{29}{2015}{{Taylor}}{{}}}
-\bibcite{khade2019system}{{30}{2019}{{Khade et~al.}}{{Khade, Subhedar, Choudhary, Deshpande, and Kulkarni}}}
-\bibcite{rao2022explainable}{{31}{2022}{{Rao et~al.}}{{Rao, Li, Ramakrishnan, Hassaine, Canoy, Cleland, Lukasiewicz, Salimi-Khorshidi, and Rahimi}}}
-\bibcite{acharya2019deep}{{32}{2019}{{Acharya et~al.}}{{Acharya, Fujita, Oh, Hagiwara, Tan, Adam, and Tan}}}
-\bibcite{matsumoto2020diagnosing}{{33}{2020}{{Matsumoto et~al.}}{{Matsumoto, Kodera, Shinohara, Ieki, Yamaguchi, Higashikuni, Kiyosue, Ito, Ando, Takimoto et~al.}}}
+\bibcite{xiang2023research}{{21}{2023}{{Xiang et~al.}}{{Xiang, Zang, Wang, Wang, Zhou, Bi, Zhang, and Xue}}}
+\bibcite{li2021lightweight}{{22}{2021}{{Li et~al.}}{{Li, Yin, Ma, Zhang, and Liu}}}
+\bibcite{shuvo2021cardioxnet}{{23}{2021}{{Shuvo et~al.}}{{Shuvo, Ali, Swapnil, Al-Rakhami, and Gumaei}}}
+\bibcite{chen2023robust}{{24}{2023}{{Chen et~al.}}{{Chen, Guo, Xu, Zhang, Teng, Chen, Wo{\'z}niak, and Wang}}}
+\bibcite{2006Research}{{25}{2006}{{Zhao et~al.}}{{Zhao, Liu, Ma, and Zhou}}}
+\bibcite{2010Research}{{26}{2010}{{Chen et~al.}}{{Chen, Han, and Xing}}}
+\bibcite{cheng2014denoising}{{27}{2014}{{Cheng and Zhang}}{{}}}
+\bibcite{he2016deep}{{28}{2016}{{He et~al.}}{{He, Zhang, Ren, and Sun}}}
+\bibcite{howard2017mobilenets}{{29}{2017}{{Howard et~al.}}{{Howard, Zhu, Chen, Kalenichenko, Wang, Weyand, Andreetto, and Adam}}}
+\bibcite{huang2017densely}{{30}{2017}{{Huang et~al.}}{{Huang, Liu, Van Der~Maaten, and Weinberger}}}
+\bibcite{taylor2015learning}{{31}{2015}{{Taylor}}{{}}}
+\bibcite{khade2019system}{{32}{2019}{{Khade et~al.}}{{Khade, Subhedar, Choudhary, Deshpande, and Kulkarni}}}
+\bibcite{rao2022explainable}{{33}{2022}{{Rao et~al.}}{{Rao, Li, Ramakrishnan, Hassaine, Canoy, Cleland, Lukasiewicz, Salimi-Khorshidi, and Rahimi}}}
+\bibcite{acharya2019deep}{{34}{2019}{{Acharya et~al.}}{{Acharya, Fujita, Oh, Hagiwara, Tan, Adam, and Tan}}}
+\bibcite{matsumoto2020diagnosing}{{35}{2020}{{Matsumoto et~al.}}{{Matsumoto, Kodera, Shinohara, Ieki, Yamaguchi, Higashikuni, Kiyosue, Ito, Ando, Takimoto et~al.}}}
+\bibcite{2022Audicor}{{36}{2022}{{Fudim et~al.}}{{Fudim, Mirro, and Cheng}}}
 \csxdef{lastpage}{14}
 \gdef \@abspage@last{15}

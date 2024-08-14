@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  13 AUG 2024 20:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  14 AUG 2024 17:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1200,23 +1200,23 @@ LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 Package hyperref Warning: Ignoring empty anchor on input line 94.
 
 (./sections/introduction.tex
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6.
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 7.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ) [1
 
 {/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} </usr/local/texlive/2024/texmf-dist/tex/latex/els-cas-templates/thumbnails/cas-email.jpeg>]
-Underfull \hbox (badness 1253) in paragraph at lines 20--21
+Underfull \hbox (badness 1253) in paragraph at lines 22--23
 \T1/stix/m/n/10 i-cal re-view pro-cess and is pub-licly ac-ces-si-ble on
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 21--22
+Underfull \hbox (badness 1509) in paragraph at lines 23--24
 []\T1/stix/m/n/10 A wavelet de-nois-ing al-go-rithm and a lightweight
  []
 
 ) (./sections/method.tex
-<figs/methods/all.png, id=63, 1782.66pt x 2540.0496pt>
+<figs/methods/all.png, id=65, 1782.66pt x 2540.0496pt>
 File: figs/methods/all.png Graphic file (type png)
 <use figs/methods/all.png>
 Package pdftex.def Info: figs/methods/all.png  used on input line 4.
@@ -1242,8 +1242,13 @@ Underfull \hbox (badness 4108) in paragraph at lines 10--11
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 10--11
-\T1/stix/m/n/10 al-go-rithm specif-i-cally de-signed for short-duration heart
+Underfull \hbox (badness 1460) in paragraph at lines 10--11
+\T1/stix/m/n/10 a wavelet de-nois-ing al-go-rithm specif-i-cally de-signed for
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 10--11
+\T1/stix/m/n/10 short-duration heart sound sig-nals, ef-fec-tively re-duc-ing
  []
 
 [3 <./figs/methods/all.png>]
@@ -1282,12 +1287,12 @@ Underfull \hbox (badness 1072) in paragraph at lines 264--265
  []
 
 [7]
-<./figs/results/Confusion Matrix 2.png, id=185, 323.0469pt x 321.24014pt>
+<./figs/results/Confusion Matrix 2.png, id=191, 323.0469pt x 321.24014pt>
 File: ./figs/results/Confusion Matrix 2.png Graphic file (type png)
 <use ./figs/results/Confusion Matrix 2.png>
 Package pdftex.def Info: ./figs/results/Confusion Matrix 2.png  used on input line 411.
 (pdftex.def)             Requested size: 197.80052pt x 196.70125pt.
-<./figs/results/Confusion Matrix 1.png, id=187, 323.0469pt x 321.24014pt>
+<./figs/results/Confusion Matrix 1.png, id=193, 323.0469pt x 321.24014pt>
 File: ./figs/results/Confusion Matrix 1.png Graphic file (type png)
 <use ./figs/results/Confusion Matrix 1.png>
 Package pdftex.def Info: ./figs/results/Confusion Matrix 1.png  used on input line 418.
@@ -1298,8 +1303,8 @@ Underfull \hbox (badness 1400) in paragraph at lines 426--427
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 426--427
-\T1/stix/m/n/10 and speci-ficity ex-ceed-ing 82% across all three mod-els.
+Underfull \hbox (badness 1983) in paragraph at lines 426--427
+\T1/stix/m/n/10 18 and MobileNetV1-28. How-ever, MVP di-ag-no-sis by
  []
 
 
@@ -1308,17 +1313,17 @@ Underfull \hbox (badness 1430) in paragraph at lines 432--433
  []
 
 [8]) (./sections/Discussion.tex [9 <./figs/results/Confusion Matrix 2.png> <./figs/results/Confusion Matrix 1.png>]
-<figs/disscussion/1.5s.png, id=213, 629.59215pt x 288.23685pt>
+<figs/disscussion/1.5s.png, id=219, 629.59215pt x 288.23685pt>
 File: figs/disscussion/1.5s.png Graphic file (type png)
 <use figs/disscussion/1.5s.png>
 Package pdftex.def Info: figs/disscussion/1.5s.png  used on input line 13.
 (pdftex.def)             Requested size: 214.42754pt x 98.16635pt.
-<figs/disscussion/2s.png, id=214, 629.59215pt x 288.23685pt>
+<figs/disscussion/2s.png, id=220, 629.59215pt x 288.23685pt>
 File: figs/disscussion/2s.png Graphic file (type png)
 <use figs/disscussion/2s.png>
 Package pdftex.def Info: figs/disscussion/2s.png  used on input line 20.
 (pdftex.def)             Requested size: 214.42754pt x 98.16635pt.
-<figs/disscussion/3s.png, id=215, 629.59215pt x 288.23685pt>
+<figs/disscussion/3s.png, id=221, 629.59215pt x 288.23685pt>
 File: figs/disscussion/3s.png Graphic file (type png)
 <use figs/disscussion/3s.png>
 Package pdftex.def Info: figs/disscussion/3s.png  used on input line 26.
@@ -1328,55 +1333,60 @@ Package pdftex.def Info: figs/disscussion/3s.png  used on input line 26.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [10 <./figs/disscussion/1.5s.png> <./figs/disscussion/2s.png> <./figs/disscussion/3s.png>]
-<figs/disscussion/a.png, id=233, 797.98125pt x 1204.5pt>
+<figs/disscussion/a.png, id=239, 797.98125pt x 1204.5pt>
 File: figs/disscussion/a.png Graphic file (type png)
 <use figs/disscussion/a.png>
 Package pdftex.def Info: figs/disscussion/a.png  used on input line 46.
 (pdftex.def)             Requested size: 148.35417pt x 223.93176pt.
-<figs/disscussion/b.png, id=234, 797.98125pt x 1204.5pt>
+<figs/disscussion/b.png, id=240, 797.98125pt x 1204.5pt>
 File: figs/disscussion/b.png Graphic file (type png)
 <use figs/disscussion/b.png>
 Package pdftex.def Info: figs/disscussion/b.png  used on input line 53.
 (pdftex.def)             Requested size: 148.35417pt x 223.93176pt.
-<figs/disscussion/c.png, id=235, 797.98125pt x 1204.5pt>
+<figs/disscussion/c.png, id=241, 797.98125pt x 1204.5pt>
 File: figs/disscussion/c.png Graphic file (type png)
 <use figs/disscussion/c.png>
 Package pdftex.def Info: figs/disscussion/c.png  used on input line 59.
 (pdftex.def)             Requested size: 148.35417pt x 223.93176pt.
-<figs/disscussion/d.png, id=236, 1204.5pt x 1204.5pt>
+<figs/disscussion/d.png, id=242, 1204.5pt x 1204.5pt>
 File: figs/disscussion/d.png Graphic file (type png)
 <use figs/disscussion/d.png>
 Package pdftex.def Info: figs/disscussion/d.png  used on input line 65.
 (pdftex.def)             Requested size: 197.80052pt x 197.79659pt.
-<figs/disscussion/e.png, id=237, 1204.5pt x 1204.5pt>
+<figs/disscussion/e.png, id=243, 1204.5pt x 1204.5pt>
 File: figs/disscussion/e.png Graphic file (type png)
 <use figs/disscussion/e.png>
 Package pdftex.def Info: figs/disscussion/e.png  used on input line 72.
 (pdftex.def)             Requested size: 197.80052pt x 197.79659pt.
  [11 <./figs/disscussion/a.png (PNG copy)> <./figs/disscussion/b.png (PNG copy)> <./figs/disscussion/c.png (PNG copy)> <./figs/disscussion/d.png (PNG copy)> <./figs/disscussion/e.png (PNG copy)>]
-<figs/results/n_mfcc.png, id=252, 240.9pt x 498.225pt>
+<figs/results/n_mfcc.png, id=258, 240.9pt x 498.225pt>
 File: figs/results/n_mfcc.png Graphic file (type png)
 <use figs/results/n_mfcc.png>
 Package pdftex.def Info: figs/results/n_mfcc.png  used on input line 94.
 (pdftex.def)             Requested size: 113.21811pt x 234.15057pt.
-<figs/results/mvp_mfcc.png, id=253, 243.528pt x 498.225pt>
+<figs/results/mvp_mfcc.png, id=259, 243.528pt x 498.225pt>
 File: figs/results/mvp_mfcc.png Graphic file (type png)
 <use figs/results/mvp_mfcc.png>
 Package pdftex.def Info: figs/results/mvp_mfcc.png  used on input line 101.
 (pdftex.def)             Requested size: 114.3611pt x 233.96812pt.
 
-Underfull \hbox (badness 4156) in paragraph at lines 88--108
+Underfull \hbox (badness 4156) in paragraph at lines 88--110
 []\T1/stix/m/n/10 Fig.[][]7a[][] il-lus-trates a rep-re-sen-ta-tion of nor-mal heart
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 142--142
+Underfull \hbox (badness 1590) in paragraph at lines 155--156
+[]\T1/stix/m/n/10 Xiang [[]] ex-plored Log-mel fea-tures with Trans-fer
+ []
+
+
+Overfull \hbox (10.00235pt too wide) in alignment at lines 190--190
 [][][][][] 
  []
 
 ) (./sections/conclusion.tex [12 <./figs/results/n_mfcc.png> <./figs/results/mvp_mfcc.png>]) (./sections/data and code availability.tex
-Underfull \hbox (badness 1168) in paragraph at lines 2--1
-\T1/stix/m/n/10 as the top-performing model in heart fail-ure di-ag-no-sis,
+Underfull \hbox (badness 1009) in paragraph at lines 2--1
+\T1/stix/m/n/10 center AHF data for model train-ing, aim-ing to achieve
  []
 
 ) (./sections/Funding.tex
@@ -1389,8 +1399,8 @@ Underfull \hbox (badness 1072) in paragraph at lines 2--1
 \T1/stix/m/n/10 cal ethics com-mit-tee of Tian-jin 4th Cen-ter Hos-pi-tal of
  []
 
-) (./sections/Declaration.tex) (./cas-sc-template.bbl [13]
-Underfull \hbox (badness 1286) in paragraph at lines 143--147
+) (./sections/Declaration.tex) [13] (./cas-sc-template.bbl
+Underfull \hbox (badness 1286) in paragraph at lines 153--157
 []\T1/stix/m/n/8 A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang,
  []
 
@@ -1403,18 +1413,18 @@ Package rerunfilecheck Info: File `cas-sc-template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 40536 strings out of 474116
- 885759 string characters out of 5743689
- 1993187 words of memory out of 5000000
- 62085 multiletter control sequences out of 15000+600000
+ 40548 strings out of 474116
+ 886014 string characters out of 5743689
+ 1992187 words of memory out of 5000000
+ 62094 multiletter control sequences out of 15000+600000
  655864 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,22n,131p,1883b,2583s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,22n,131p,1717b,2583s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/stix/STIXGeneral-BoldItalic.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on cas-sc-template.pdf (15 pages, 12923326 bytes).
+Output written on cas-sc-template.pdf (15 pages, 12925737 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 321 compressed objects within 4 object streams
- 101 named destinations out of 1000 (max. 500000)
+ 422 PDF objects out of 1000 (max. 8388607)
+ 329 compressed objects within 4 object streams
+ 104 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

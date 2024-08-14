@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{36}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -109,6 +109,11 @@
 \bibinfo{author}{V.~Arora}, \bibinfo{author}{K.~Verma}, \bibinfo{author}{R.~S. Leekha}, \bibinfo{author}{K.~Lee}, \bibinfo{author}{C.~Choi}, \bibinfo{author}{T.~Gupta}, \bibinfo{author}{K.~Bhatia},
 \newblock \bibinfo{title}{Transfer learning model to indicate heart health status using phonocardiogram}  (\bibinfo{year}{2021}).
 %Type = Article
+\bibitem[{Xiang et~al.(2023)Xiang, Zang, Wang, Wang, Zhou, Bi, Zhang, and Xue}]{xiang2023research}
+\bibinfo{author}{M.~Xiang}, \bibinfo{author}{J.~Zang}, \bibinfo{author}{J.~Wang}, \bibinfo{author}{H.~Wang}, \bibinfo{author}{C.~Zhou}, \bibinfo{author}{R.~Bi}, \bibinfo{author}{Z.~Zhang}, \bibinfo{author}{C.~Xue},
+\newblock \bibinfo{title}{Research of heart sound classification using two-dimensional features},
+\newblock \bibinfo{journal}{Biomedical Signal Processing and Control} \bibinfo{volume}{79} (\bibinfo{year}{2023}) \bibinfo{pages}{104190}.
+%Type = Article
 \bibitem[{Li et~al.(2021)Li, Yin, Ma, Zhang, and Liu}]{li2021lightweight}
 \bibinfo{author}{T.~Li}, \bibinfo{author}{Y.~Yin}, \bibinfo{author}{K.~Ma}, \bibinfo{author}{S.~Zhang}, \bibinfo{author}{M.~Liu},
 \newblock \bibinfo{title}{Lightweight end-to-end neural network model for automatic heart sound classification},
@@ -118,6 +123,11 @@
 \bibinfo{author}{S.~B. Shuvo}, \bibinfo{author}{S.~N. Ali}, \bibinfo{author}{S.~I. Swapnil}, \bibinfo{author}{M.~S. Al-Rakhami}, \bibinfo{author}{A.~Gumaei},
 \newblock \bibinfo{title}{Cardioxnet: A novel lightweight deep learning framework for cardiovascular disease classification using heart sound recordings},
 \newblock \bibinfo{journal}{IEEE Access} \bibinfo{volume}{9} (\bibinfo{year}{2021}) \bibinfo{pages}{36955--36967}.
+%Type = Article
+\bibitem[{Chen et~al.(2023)Chen, Guo, Xu, Zhang, Teng, Chen, Wo{\'z}niak, and Wang}]{chen2023robust}
+\bibinfo{author}{J.~Chen}, \bibinfo{author}{Z.~Guo}, \bibinfo{author}{X.~Xu}, \bibinfo{author}{L.-b. Zhang}, \bibinfo{author}{Y.~Teng}, \bibinfo{author}{Y.~Chen}, \bibinfo{author}{M.~Wo{\'z}niak}, \bibinfo{author}{W.~Wang},
+\newblock \bibinfo{title}{A robust deep learning framework based on spectrograms for heart sound classification},
+\newblock \bibinfo{journal}{IEEE/ACM Transactions on Computational Biology and Bioinformatics}  (\bibinfo{year}{2023}).
 %Type = Article
 \bibitem[{Zhao et~al.(2006)Zhao, Liu, Ma, and Zhou}]{2006Research}
 \bibinfo{author}{J.~Y. Zhao}, \bibinfo{author}{H.~Y. Liu}, \bibinfo{author}{H.~S. Ma}, \bibinfo{author}{H.~D. Zhou},
@@ -171,5 +181,10 @@
 \bibinfo{author}{T.~Matsumoto}, \bibinfo{author}{S.~Kodera}, \bibinfo{author}{H.~Shinohara}, \bibinfo{author}{H.~Ieki}, \bibinfo{author}{T.~Yamaguchi}, \bibinfo{author}{Y.~Higashikuni}, \bibinfo{author}{A.~Kiyosue}, \bibinfo{author}{K.~Ito}, \bibinfo{author}{J.~Ando}, \bibinfo{author}{E.~Takimoto}, et~al.,
 \newblock \bibinfo{title}{Diagnosing heart failure from chest x-ray images using deep learning},
 \newblock \bibinfo{journal}{International Heart Journal} \bibinfo{volume}{61} (\bibinfo{year}{2020}) \bibinfo{pages}{781--786}.
+%Type = Article
+\bibitem[{Fudim et~al.(2022)Fudim, Mirro, and Cheng}]{2022Audicor}
+\bibinfo{author}{M.~Fudim}, \bibinfo{author}{M.~Mirro}, \bibinfo{author}{H.~M. Cheng},
+\newblock \bibinfo{title}{Audicor remote patient monitoring: Fda breakthrough device and technology for heartfailure management},
+\newblock \bibinfo{journal}{JACC. Basic to translational science} \bibinfo{volume}{7} (\bibinfo{year}{2022}) \bibinfo{pages}{313--315}.
 
 \end{thebibliography}

@@ -7,9 +7,9 @@
 \end{figure*}
 Fig. \ref{FIG:Methodology} illustrates the methodology employed in this paper. Firstly, in order to address the data scarcity issue in the development of AHF diagnostic models, we have created several datasets. We create a multi-region fusion auscultation dataset, containing 540 healthy cases and 389 heart failure cases. Each case includes three audio recordings corresponding to the mitral valve, aortic valve, and pulmonic valve. Additionally, a mitral valve auscultation dataset is established, containing 1620 healthy cases and 1379 heart failure cases, with each recording lasting between three to five seconds.
 
-Next, in response to the signal processing and lightweight requirements for rapid AHF diagnosis, we have developed a wavelet denoising algorithm and a lightweight DenseHF-Net. We explore a wavelet denoising algorithm specifically designed for short-duration heart sound signals to reduce noise effectively. Subsequently, we employ the MFCC algorithm to extract one-dimensional sound signals into two-dimensional image features. Finally, a DenseHF-Net is used to train on the MFCC features.
+Next, in response to the signal processing and lightweight requirements for rapid AHF diagnosis, we have developed a wavelet denoising algorithm and a lightweight DenseHF-Net. We developed and implemented a wavelet denoising algorithm specifically designed for short-duration heart sound signals, effectively reducing noise. Subsequently, we employ the MFCC algorithm to extract one-dimensional sound signals into two-dimensional image features. Finally, a DenseHF-Net is used to train on the MFCC features.
 
-Two distinct auscultation strategies are introduced in this paper.  1. Multi-region fusion auscultation is designed for
+This paper introduces two distinct auscultation strategies. 1. Multi-region fusion auscultation is designed for
 scenarios where long-time auscultation is possible, using the fusion characteristics of the mitral valve, aortic valve, and pulmonic valve as input features. 2. Mitral valve auscultation is specifically
 designed for AHF rapid diagnosis in cases of ambulances. In the case of mitral valve auscultation lasting more than 10 seconds, an ensemble method is proposed. 
 \subsection{Datasets}
@@ -189,9 +189,9 @@ Experimental environment system: Ubuntu 18.04; CPU: Intel(R) Core(TM) i7-9700K C
 \subsection{Auscultation strategies}
 The multi-region fusion auscultation strategy is designed for AHF diagnosis in hospitals, with the aim of reducing the door-to-balloon time. Then to reduce the mortality rate and rehospitalization rate of HF patients \cite{fan2021effects}. Heart sound signals are synchronously collected from three regions, including the mitral valve region, aortic valve region, and pulmonic valve region.
 
-The processing pipeline includes three main steps:
+The processing pipeline consists of three main steps: 
 
-1. Applying wavelet transform to the three channels of heart sound to reduce noise.
+1. Applying wavelet transform to reduce noise in the three heart sound channels.
 2. Feature extraction using the MFCC.
 3. Fusion of the three MFCC feature sets to produce input of the same dimension as that of the mitral valve auscultation.
 
