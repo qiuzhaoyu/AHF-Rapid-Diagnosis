@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  15 AUG 2024 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  15 AUG 2024 16:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1216,11 +1216,11 @@ Underfull \hbox (badness 1509) in paragraph at lines 23--24
  []
 
 ) (./sections/method.tex
-<figs/methods/all.png, id=65, 1782.66pt x 2540.0496pt>
+<figs/methods/all.png, id=65, 1782.66pt x 2516.4414pt>
 File: figs/methods/all.png Graphic file (type png)
 <use figs/methods/all.png>
 Package pdftex.def Info: figs/methods/all.png  used on input line 4.
-(pdftex.def)             Requested size: 380.77394pt x 542.53429pt.
+(pdftex.def)             Requested size: 380.77394pt x 537.49178pt.
  [2]
 Underfull \hbox (badness 1158) in paragraph at lines 8--9
 []\T1/stix/m/n/10 Fig. [][]1[][] il-lus-trates the method-ol-ogy em-ployed in this
@@ -1421,7 +1421,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,22n,131p,1717b,2583s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/STIXGeneral-BoldItalic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on cas-sc-template.pdf (15 pages, 12925853 bytes).
+Output written on cas-sc-template.pdf (15 pages, 8335366 bytes).
 PDF statistics:
  422 PDF objects out of 1000 (max. 8388607)
  329 compressed objects within 4 object streams
